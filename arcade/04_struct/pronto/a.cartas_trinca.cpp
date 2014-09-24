@@ -14,6 +14,8 @@ using namespace std;
 //1- As tres cartas possuem o mesmo valor.
 //2- As tres cartas possuem o mesmo naipe e valores em sequencia.
 //
+//OBS: As cartas passadas já estão ordenadas.
+//
 enum Valor {AS = 1, DOIS, TRES, QUATRO, CINCO, SEIS, SETE, OITO, NOVE, DEZ,
             VALETES, DAMAS, REIS};
 enum Naipe {OUROS, ESPADAS, COPAS, PAUS};
