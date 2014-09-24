@@ -114,8 +114,9 @@ def processar_texto(texto):
                 saida += linha + "\n"
             if(estado == INCLUSAO):
                 if(get_identacao(linha) < identacao):
-                    saida += linha + "\n"
-                    estado = NORMAL
+                    if(len(linha) != 0):
+                        saida += linha + "\n"
+                        estado = NORMAL
                 else:
                     if(eh_comentario(linha)):
                         saida += linha.replace("//", "", 1) + '\n'
@@ -123,8 +124,9 @@ def processar_texto(texto):
                         estado = NORMAL
             if(estado == EXCLUSAO):
                 if(get_identacao(linha) < identacao):
-                    saida += linha + "\n"
-                    estado = NORMAL
+                    if(len(linha) != 0):
+                        saida += linha + "\n"
+                        estado = NORMAL
     return saida
 
 
@@ -169,6 +171,7 @@ def wait_write(path):
     while(os.path.getsize(path) == 0):
         time.sleep(0.3)
 
+
 def separate(text):
     pi = Pieces()
 
@@ -200,6 +203,7 @@ def separate(text):
 
     return pi
 
+
 def gen_aluno(path_master):
         arq = open(path_master)
         fname = path_master.replace(".cpp", "")
@@ -227,6 +231,7 @@ def gen_aluno(path_master):
 
         wait_write(aluno_path)
         return aluno_path
+
 
 def main():
 
