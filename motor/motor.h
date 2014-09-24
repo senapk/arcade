@@ -223,18 +223,18 @@ namespace bug{
     class Question
     {
         private:
-            int    _value;
-            std::string _name;
-            uint32_t _tags;
+            int    _value{1};
+            std::string _name{""};
+            uint32_t _tags{NONE};
             std::string _tests = "";
         public:
             static const int MAX_NAME = 20;
             static const int MAX_TESTS = 30;
 
             Question(std::string name = "", int value = 1, uint32_t tags = NONE):
+                _value(value)
                 _name(name),
                 _tags(tags),
-                _value(value)
             {}
 
             void setTags(uint32_t tags){
