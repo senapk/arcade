@@ -232,9 +232,9 @@ namespace bug{
             static const int MAX_TESTS = 30;
 
             Question(std::string name = "", int value = 1, uint32_t tags = NONE):
-                _value(value)
+                _value(value),
                 _name(name),
-                _tags(tags),
+                _tags(tags)
             {}
 
             void setTags(uint32_t tags){
@@ -514,24 +514,6 @@ using namespace std;
 using namespace bug;
 
 static Tester tester;
-
-//void t_open(const string nome, const int level, const uint32_t flags = NONE){
-    //tester.open(nome, level, flags);
-//}
-
-//void t_add(bool b){ tester.add(b); }
-//void t_add(char b){ tester.add(b); }
-//void t_total()    { tester.total(); }
-//void t_arcade()   { tester.arcade();}
-//bool t_feq(float a, float b){
-    //return Tester::feq(a,b);
-//}
-
-//#define MAIN()  main(){         \
-                   //tests();     \
-                   //t_arcade();  \
-                   //return 0;    \
-                //}
 
 
 //criando objeto oco para redirecionamentos
