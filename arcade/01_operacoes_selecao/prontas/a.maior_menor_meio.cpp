@@ -11,7 +11,7 @@ using namespace std;
 //@begin
 
 //Questão: Faça uma função que recebe 3 valores e retorna os valores do maior menor e do meio.
-//@return: struct Result.
+//return: struct Result.
 
 struct Result{
     int maior;
@@ -20,40 +20,34 @@ struct Result{
 };
 
 Result maior_menor_meio(int one, int two, int three){
-	return Result res{0,0,0};
-
-    if (three > res.maior) {
-        res.meio = res.maior;
-        res.maior = three;
-    } else {
-        if (three < res.menor) {
-            res.meio = res.menor;
-            res.menor = three;
-        } else {
-            res.meio = three;
-        }
-    }
-    return res;
+    return Result{0,0,0};
 }
 
 //@end
 
 //@tests
+bool igual(Result a, Result b){
+    if(a.maior == b.maior )
+        if(a.menor == b.menor)
+            if(a.meio == b.meio)
+                return true;
+    return false;
+}
 void tests(){
-	cout << "#open maior_menor_meio BRONZE IF STRUCT" << endl;
+    cout << "#open maior_menor_meio BRONZE IF STRUCT" << endl;
 
-	{
-		Result res{3,2,1};
-    	cout << (res == maior_menor_meio(2,1,3)) << endl;
-	}
-	{
-		Result res{2,1,0};
-    	cout << (res == maior_menor_meio(0,1,2)) << endl;
-	}
-	{
-		Result res{10,9,2};
-    	cout << (res == maior_menor_meio(10,9,2)) << endl;
-	}
+    {
+        Result res{3,2,1};
+        cout << (igual(res, maior_menor_meio(2,1,3))) << endl;
+    }
+    {
+        Result res{2,1,0};
+        cout << igual(res, maior_menor_meio(0,1,2)) << endl;
+    }
+    {
+        Result res{10,9,2};
+        cout << igual(res, maior_menor_meio(10,9,2)) << endl;
+    }
 }
 
 //@tips

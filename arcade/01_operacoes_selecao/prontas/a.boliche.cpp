@@ -30,7 +30,6 @@ bool diametro_caixa(int diametro, int altura, int largura, int profundidade){
 
 void tests(){
     cout << "#open area_triangulo" << endl;
-    cout << "oi galera" << endl;
     cout << (diametro_caixa(3,3,2,5) == false);
     cout << (diametro_caixa(5,5,5,5) == true);
 }

@@ -16,7 +16,7 @@ using namespace std;
 //@return: retorna um float.
 
 float arredondamento(float nota){
-    return 0.0
+    return 0.0;
 }
 
 //@end

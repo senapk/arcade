@@ -25,8 +25,8 @@ void tests() {
         return ((max(A,B)-min(A,B)) < 0.01);
     };
     cout << ("#open  calcular_desempenho");
-    cout << (calcular_desempenho(100, 60, 10) == 10.0);
-    cout << (calcular_desempenho(100, 30, 10) == 5.0);
+    cout << (feq(calcular_desempenho(100, 60, 10), 10.0));
+    cout << (feq(calcular_desempenho(100, 30, 10), 5.0));
 }
 
 //@tips
