@@ -3,13 +3,14 @@
 
 """
 Gera o codigo do aluno.
-Coloque o arquivo toalu.py na pasta /usr/local/bin/
+Coloque o arquivo kgenerate.y na pasta /usr/local/bin/
 
-Recebe o arquivo arquivo.cpp e gera o a.arquivo.cpp
+Recebe o arquivo arquivo.p.cpp e gera o arquivo.a.cpp
+
+./kgenerate.py codigo.p.cpp
+./kgenerate.py *.cpp
 """
 
-"""./gen.py codigo.cpp"""
-"""./gen.py *.cpp"""
 
 __author__ = "David Sena"
 

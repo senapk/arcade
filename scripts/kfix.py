@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Remonta o codigo do aluno"""
-"""./remount.py master.cpp a.alu.cpp"""
+"""
+Remonta o codigo do aluno
+./kfix.py master.p.cpp alu.a.cpp
+
+E cria arquivos intermediarios para analise
+alu.a.b.cpp -> codigo remontado do aluno
+alu.a.b.err -> resultado da compilacao
+alu.a.b.out -> executavel criado
+alu.a.b.txt -> resultado da compilação para saida resumida
+
+
+"""
 
 __author__ = "David Sena"
 

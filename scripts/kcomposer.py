@@ -2,14 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 Realiza a composição dos trabalhos utilizando namespaces
-A pasta de destino já deve existir no sistema
+A pasta de destino eh o ultimo parametro e sera criada caso nao exista
 
 Exemplo de uso
-mkdir pasta_destino
-./composer_ns.py questao1.p.cpp questao2.p.cpp questao3.p.cpp pasta_destino
+./kcomposer.py questao1.p.cpp questao2.p.cpp questao3.p.cpp pasta_destino
 
 ou apenas
-./composer_ns.py *.cpp pasta_destino
+./kcomposer.py *.cpp pasta_destino
 """
 __author__ = "David Sena"
 
