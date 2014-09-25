@@ -4,7 +4,7 @@ arcade
 Lista de questões.
 
 Para instalar o motor no sistema:
-Se quiser a saída colorida basta mudar o include para <cmotor.h>
+Se quiser a saída colorida basta mudar o include para cmotor.h
 
 Digite::
 
