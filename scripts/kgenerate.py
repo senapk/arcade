@@ -206,12 +206,14 @@ def separate(text):
 
 def gen_aluno(path_master):
         arq = open(path_master)
-        fname = path_master.replace(".cpp", "")
+        fname = path_master.replace(".p.cpp", "")
+        fname = fname.replace(".cpp", "")
         text = arq.read()
         pi = separate(text)
 
         # coloca no formato a.fname.cpp
-        aluno_path = add_prefix(fname + ".cpp", "a.")
+        aluno_path = fname + ".a.cpp"
+        # aluno_path = add_prefix(fname + ".cpp", "a.")
 
         # abrindo arquivo do aluno
         aluno_cpp = open(aluno_path, 'w')
