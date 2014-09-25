@@ -30,9 +30,8 @@ class Pieces(object):
 
 header = """/////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 """
 
@@ -154,13 +153,15 @@ def format_tips(text, to_invert):
         retorna o texto formatado da dica
     """
     saida = ""
-    saida = saida + "\n//@tips"
-    saida = saida + "\n//http://reverse-string.wezo.com.br/pt-BR\n"
+    saida += "\n//@tips"
+    saida += "\n//As linhas estão invertidas para você não ler sem querer :)"
+    # saida = saida + "\n//http://reverse-string.wezo.com.br/pt-BR\n"
     if to_invert:
         linhas_dicas = text.split('\n')
         for linha in reversed(linhas_dicas):
-            linha = linha + '//'
-            linha = linha[::-1] + '\n'
+            # linha = linha + '//'
+            # linha = linha[::-1] + '\n'
+            linha = linha + '\n'
             saida += linha
     else:
         saida += text
@@ -225,11 +226,13 @@ def gen_aluno(path_master):
         aluno_cpp.write("//@end\n")
 
         aluno_cpp.write('\n' + pi.testes)
+
+        aluno_cpp.write(simple_main)
+
         if len(pi.dicas) > 5:
             dicas = format_tips(pi.dicas, True)
             aluno_cpp.write(dicas)
 
-        aluno_cpp.write(simple_main)
         aluno_cpp.close()
 
         wait_write(aluno_path)
@@ -238,18 +241,11 @@ def gen_aluno(path_master):
 
 def main():
 
-    # checar formato dos arquivos
     for path in sys.argv[1:]:
-        if(check_extension(path, ".cpp") is False):
-            print("Arquivo " + path + " não possui extensao .cpp")
-            sys.exit(0)
-        # res = test_full_file_format(path)
-        # if res != "OK":
-            # print ("elemento " + res + " não encontrado em " + path)
-            # sys.exit()
-
-    for path in sys.argv[1:]:
-        gen_aluno(path)
+        if(check_extension(path, ".p.cpp") is False):
+            print(" Pulando arquivo " + path + ": não possui extensao .p.cpp")
+        else:
+            gen_aluno(path)
 
 
 if __name__ == "__main__":

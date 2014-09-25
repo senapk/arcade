@@ -1,7 +1,8 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// Baixe o motor.h ou comente o include
-// motor.h: https://github.com/senapk/arcade
+// motor.h: Baixe em http:tinyurl.com/fup-motor-h
+// coloque em /usr/local/include/motor.h
+// ou apenas comente a linha #include <motor.h>
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -49,12 +50,14 @@ void tests(){
     }
 }
 
+//@tips
+//http://reverse-string.wezo.com.br/pt-BR
+//
+//.sacid iussop oãn oãtseuq assE//
+//
+
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :).
-//Essa questão não possui dicas.
-

@@ -1,7 +1,8 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// Baixe o motor.h ou comente o include
-// motor.h: https://github.com/senapk/arcade
+// motor.h: Baixe em http:tinyurl.com/fup-motor-h
+// coloque em /usr/local/include/motor.h
+// ou apenas comente a linha #include <motor.h>
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -27,14 +28,16 @@ void tests() {
     cout << (feq(media_ponderada(8.9, 6.7, 8.1, 1.2, 2.4, 3.5), 7.76));
 }
 
+//@tips
+//http://reverse-string.wezo.com.br/pt-BR
+//
+//.sesetnêrap sod otnemanoicisop on odadiuC//
+//mth.adarednop-aidem/acitametam/moc.alocselisarb.www//:ptth//
+//:etis etniuges on adartnocne res edop adarednop aidem ad alumrof A//
+//
+
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :).
-//Cuidado no posicionamento dos parênteses.
-//http://www.brasilescola.com/matematica/media-ponderada.htm
-//A formula da media ponderada pode ser encontrada no seguinte site:
-
