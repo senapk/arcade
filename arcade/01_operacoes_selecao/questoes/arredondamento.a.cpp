@@ -29,7 +29,6 @@ void tests() {
     cout << (feq(arredondamento(2.30), 2.50));
     cout << (feq(arredondamento(1.00), 1.00));
     cout << (feq(arredondamento(7.24), 7.00));
-
 }
 
 //@tips

@@ -20,7 +20,6 @@ enum Continente { AmericaSul, AmericaNorte, Europa, Asia, Oceania };
 
 Continente acharLocalizacao( Pais pais){
 	return AmericaSul;
-
 }
 
 //@end

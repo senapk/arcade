@@ -6,7 +6,7 @@
 /////////////////////////////////////////////
 
 #include <iostream>
-//#include <motor.h>
+#include <motor.h>
 using namespace std;
 //@begin
 
@@ -16,11 +16,6 @@ enum Resultado {JOGADOR1, JOGADOR2};
 
 Resultado quem_ganhou( Opcao jog1, int valor_jog1, int valor_jog2){
     return JOGADOR1;
-
-    if(((soma % 2 == 0) and jog1 == PAR) or
-       ((soma % 2 != 0) and jog1 == IMPAR))
-        return JOGADOR1;
-    return JOGADOR2;
 }
 
 //@end
@@ -28,7 +23,7 @@ Resultado quem_ganhou( Opcao jog1, int valor_jog1, int valor_jog2){
 void tests(){
     cout << "#open par_impar BRONZE IF ENUM ";
     cout << (quem_ganhou(PAR, 1, 1) == JOGADOR1);
-    cout << (quem_ganhou(IMPAR, 1, 0) == JOGADOR1);
+    cout << (quem_ganhou(IMPAR, 1, 1) == JOGADOR2);
 }
 
 int main(){

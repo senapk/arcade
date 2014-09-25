@@ -7,9 +7,9 @@
 
 #include <iostream>
 #include <vector>
+#include <motor.h>
 using namespace std;
 //@begin
-
 
 /*
 Joaozinho olhou no seu saco de bilas procurando trios de bilas pra jogar.
