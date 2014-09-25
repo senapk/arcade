@@ -46,7 +46,6 @@ void tests(){
         cout << (feq(res.volume, 1000.0));
         cout << (feq(res.area, 600.0));
     }
-
 }
 
 //@tips

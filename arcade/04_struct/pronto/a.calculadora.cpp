@@ -37,22 +37,6 @@ struct Result{
 
 Result calcular(Param param){
     return Result {0.0, false};
-
-    if(param.op == '+'){
-        return Result {param.value1 + param.value2, true};
-    }else if(param.op == '-'){
-        return Result {param.value1 - param.value2, true};
-    }else if(param.op == '*'){
-        return Result {param.value1 * param.value2, true};
-    }else if(param.op == '/'){
-        if(param.value2 == 0){
-            return Result {0.0, false};
-        }
-        return Result {param.value1 / param.value2, true};
-    }else{
-        return Result {0.0, false};
-    }
-
 }
 
 //@end

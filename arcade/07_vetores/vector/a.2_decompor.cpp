@@ -28,8 +28,6 @@ void tests(){
     cout << (decompor_int(4) == vector<int>({4}));
     cout << (decompor_int(41234) == vector<int>({4, 1, 2, 3, 4}));
     cout << (decompor_int(41934) == vector<int>({4, 1, 9, 3, 4}));
-
-    cout << endl;
 }
 
 int main(){

@@ -1,12 +1,9 @@
-//////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// __________ sena.ufc@gmail.com
-//
-// template : @version - 3.0
-// motor.h : @version - 5.1
-// _______ : download - http:tinyurl.com/fup-motor-h
-// _______ : instalar - /usr/local/include/motor.h
-//////////////////////////////////////////////////////////////////////////////
+// motor.h: Baixe em http:tinyurl.com/fup-motor-h
+// coloque em /usr/local/include/motor.h
+// ou apenas comente a linha #include <motor.h>
+/////////////////////////////////////////////
 
 #include <motor.h>
 #include <iostream>
@@ -40,11 +37,10 @@ void tests ()
     in = {1, 3, 1, 2, 5, 7, 2};
     out = {1, 2, 3, 5, 7};
     cout << (pegar_exemplares(in) == out);
-
 }
 
 int main(){
     tests();
-    cout << "#end";
+    cout << endl << "#end";
     return(0);
 }

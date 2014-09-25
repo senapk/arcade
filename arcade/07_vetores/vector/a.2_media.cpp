@@ -35,7 +35,6 @@ void tests(){
     cout << (feq(media(v1), 1.0));
     cout << (feq(media(v2), 2.0));
     cout << (feq(media(v3), 2.0));
-
 }
 
 //@tips
