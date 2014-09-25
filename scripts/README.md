@@ -1,16 +1,8 @@
-arcade
-======
+scripts
+=======
 
-Lista de questões.
-
-Para instalar o motor no sistema:
-Se quiser a saída colorida basta mudar o include para cmotor.h
-
-Digite::
-
-    cd /usr/local/include
-    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/motor/motor.h
-    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/motor/cmotor.h
+Esses scripts são para composição de questões e trabalhos.
+Você aluno, não precisa deles.
 
 Para instalar os scritps, coloque-os na pasta /usr/local/bin/::
 
