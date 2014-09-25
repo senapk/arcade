@@ -26,7 +26,7 @@ void tests() {
     float v1[] = {1.50, 1.55, 1.89, 2.00, 2.01, 1.72};
     float v2[] = {1.56, 0.55, 2.00, 1.90, 1.91, 1.74};
     float v3[] = {1.80, 0.95, 1.89, 2.00, 2.01, 2.22};
-    cout << ("#open maior_modelo BRONZE IF VETOR ");
+    cout << ("#open menor_preco BRONZE IF VETOR ");
     cout << (feq(menor(v1 ,6), 1.50));
     cout << (feq(menor(v2 ,6), 0.55));
     cout << (feq(menor(v3 ,6), 0.95));
