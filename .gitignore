@@ -26,3 +26,6 @@
 *.exe
 *.out
 *.app
+
+# Arquivos do professor
+*.p.cpp

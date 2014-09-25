@@ -8,6 +8,7 @@ __author__ = "David Sena"
 import kgenerate
 import sys
 import subprocess
+import os
 
 
 def main():
@@ -20,6 +21,7 @@ def main():
         proc = subprocess.Popen(['/usr/bin/g++'] + param)
         proc.wait()
         proc = subprocess.Popen(["./" + aluno_exec])
+        os.remove(aluno_exec)
 
 
 if __name__ == "__main__":
