@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -29,15 +28,13 @@ void tests() {
 	cout << (eh_primo(2) == true);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.omirp áres oãn ele ,sataxe merof seõsivid siamed sa es oãtne//
-//,msm ele rop e 1 rop levísivid é odnauq omirp é ós oremún mU//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//então se as demais divisões forem exatas, ele não será primo.
+//Um número só é primo quando é divisível por 1 e por ele msm,
+

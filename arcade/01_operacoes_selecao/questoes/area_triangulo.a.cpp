@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -28,18 +27,16 @@ void tests(){
     cout << (feq(area_triangulo(6.4, 4.5, 5.1), 11.39)) << endl;
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//
-//
-//.sohnitrec sesetnerap so racoloc arap odadiuC//
-//mth.noreh-alumrof/acitametam/moc.oacacudeodnum.www//:ptth//
-//knil esse etnet ,elgoog on rahca ed zapac iof oãn êcov eS//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :).
+
+
+//Cuidado para colocar os parenteses certinhos.
+//http://www.mundoeducacao.com/matematica/formula-heron.htm
+//Se você não foi capaz de achar no google, tente esse link
+

@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -32,16 +31,14 @@ void tests(){
 
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//mth.solugnairt-sod-oacacifissalc/moc.sdikalocse.www//:ptth//
-//:esseca ,solugnâirt so ertne açnerefid a abias oãn êcov osaC saciD//
-//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//http://www.escolakids.com/classificacao-dos-triangulos.htm
+//Dicas Caso você não saiba a diferença entre os triângulos, acesse:
+
+

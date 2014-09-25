@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <iostream>
@@ -37,18 +36,16 @@ void tests(){
 	cout << (feq(media(v3, 4), 2.0));
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//aidem alep adivid siopeD //
-//.rotev od serolav so sodot odnehlocer //
-//ri arap rodalumuca mu rasu asicerp êcov amos a raluclac araP //
-//.sotnemele //
-//ed edaditnauq alep adidivid sotnemele so sodot ed amos a é aidém A //
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+// Depois divida pela media
+// recolhendo todos os valores do vetor.
+// Para calcular a soma você precisa usar um acumulador para ir
+// elementos.
+// A média é a soma de todos os elementos dividida pela quantidade de
+

@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -58,14 +57,12 @@ void tests(){
     cout << (conta(20) == 17);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.aiuqnarf ad oãrdap o é áj 01 o siop ,01 > n moc oçal mu me serolav so erapmoC :aciD//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//Dica: Compare os valores em um laço com n > 10, pois o 10 já é o padrão da franquia.
+

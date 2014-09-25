@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -31,17 +30,15 @@ void tests() {
     cout << (soma_divisiveis(20) == 63);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.amos a radraug arap railixua//
-//leváirav amu esU .ortuo rop levísivid é orémun//
-//mu es rebas arap )%( oludóm ed rodarepo o esU//
-//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//auxiliar para guardar a soma.
+//numéro é divisível por outro. Use uma variável
+//Use o operador de módulo (%) para saber se um
+
+

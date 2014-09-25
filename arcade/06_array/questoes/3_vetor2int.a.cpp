@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <iostream>
@@ -38,15 +37,13 @@ void tests(){
 	cout << (vetor_para_int(v5, 3) == 0);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.siod so ramos e 01 rop//
-//oriemirp o racilpitlum edop êcov ós mu me soremún siod rinu arap :aciD//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//por 10 e somar os dois.
+//Dica: para unir dois números em um só você pode multiplicar o primeiro
+

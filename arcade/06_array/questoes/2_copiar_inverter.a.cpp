@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <iostream>
@@ -50,35 +49,33 @@ void tests(){
 	cout << (b3[3] == 2);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//]ecidni - omitlu[ 1rotev od rolav o ebecer ]ecidni[ 2rotev    //
-//secidni so sodot araP//
-////
-//:airacif omtirogla O//
-//;1 - mat = omitlu o osac oN//
-////
-//.cte e odnuges o omitlunep o ,oriemirp o//
-//ebecer otnemele omitlu o osac oN .oãçiubirta a adum sam ,raipoc//
-//omtirogla od ocal o metnam ecoV .odnetrevni áj raipoc edop mébmaT//
-////
-//.retrevni sioped e aipóc ed omtirogla//
-//o odnasu raipoc edop oãsrevni ed omtirogla o rebuos áj êcov eS//
-//.raipoc oa etnelaviuqe é retrevnI//
-//retrevni oatseuq#//
-////
-//]ecidni[ 1rotev od rolav o ebecer ]ecidni[ 2rotev    //
-//secidni so sodot araP//
-////
-//.odnuges o arap rotev oriemirp od otnemele esse eipoc êcov//
-//serotev sod ecidni adac arp euq é aiedi A .ecidní moc oçal//
-//mu rasu rasicerp iav êcov ortuo arap rotev mu ed raipoc araP//
-//raipoc oatseuq#//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//    vetor2 [indice] recebe o valor do vetor1 [ultimo - indice]
+//Para todos os indices
+//
+//O algoritmo ficaria:
+//No caso o ultimo = tam - 1;
+//
+//o primeiro, o penultimo o segundo e etc.
+//copiar, mas muda a atribuição. No caso o ultimo elemento recebe
+//Também pode copiar já invertendo. Voce mantem o laco do algoritmo
+//
+//algoritmo de cópia e depois inverter.
+//Se você já souber o algoritmo de inversão pode copiar usando o
+//Inverter é equivalente ao copiar.
+//#questao inverter
+//
+//    vetor2 [indice] recebe o valor do vetor1 [indice]
+//Para todos os indices
+//
+//você copie esse elemento do primeiro vetor para o segundo.
+//laço com índice. A ideia é que pra cada indice dos vetores
+//Para copiar de um vetor para outro você vai precisar usar um
+//#questao copiar
+

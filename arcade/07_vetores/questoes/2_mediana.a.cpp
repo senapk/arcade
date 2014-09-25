@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -32,18 +31,16 @@ void tests() {
     cout << (feq(mediana({0, 9, 3.2, 1}), 2.1));
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//
-//.aidem a zaf êcov siod merarbos eS//
-//.sonem uo 2 merarbos eta//
-//roiam o e ronem o odnevomer adador adac a iav uO//
-//.oiem od serolav so agep e oãm an rotev o anedro êcov uO//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+
+//Se sobrarem dois você faz a media.
+//ate sobrarem 2 ou menos.
+//Ou vai a cada rodada removendo o menor e o maior
+//Ou você ordena o vetor na mão e pega os valores do meio.
+

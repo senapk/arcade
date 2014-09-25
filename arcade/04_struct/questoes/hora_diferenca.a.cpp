@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <iostream>
@@ -44,17 +43,15 @@ void tests(){
 
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.opmet arap atlov ed atrevnoc ,oãçartbus ad odatluser O//
-//sodnuges so aiartbuS//
-//.sodnuges arap sopmet siod so atrevnoC//
-//.sodnuges arap opmet ed etrevnoc euq oãçnuf amu açaF//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//O resultado da subtração, converta de volta para tempo.
+//Subtraia os segundos
+//Converta os dois tempos para segundos.
+//Faça uma função que converte de tempo para segundos.
+

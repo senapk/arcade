@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -33,19 +32,17 @@ void tests() {
     cout << (retira_espaco(a3) == "BOLA DE FUTEBOL\0");
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//
-//
-//.mu revah edop os ,oçapse ajes osac e//
-//oçapse rof oãn es raipoc edop êcov oãtne ,soçapse so eriter êcov euq reuq os oãtseuq a omoc//
-//]otnemele_oacisop[gnirts_emon odnasu gnirts ad otnemele adac racifirev edop êcoV//
-//;)(htgnel.gnirts_emon o ezilitu ,gnirts amu ed ohnamat o rev araP//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+
+
+//e caso seja espaço, so pode haver um.
+//como a questão so quer que você retire os espaços, então você pode copiar se não for espaço
+//Você pode verificar cada elemento da string usando nome_string[posicao_elemento]
+//Para ver o tamanho de uma string, utilize o nome_string.length();
+

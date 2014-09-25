@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -48,15 +47,13 @@ void tests(){
     }
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//lmth.emulov-e-aera-ortemirep/60/2102/rb.moc.topsgolb.01acitametamoacacude//:ptth//
-//:etis etse esseca adivúd reuqlauQ//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//http://educacaomatematica10.blogspot.com.br/2012/06/perimetro-area-e-volume.html
+//Qualquer dúvida acesse este site:
+

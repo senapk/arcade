@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -35,18 +34,16 @@ void tests() {
     cout << (primeiros_primos(11, 18) == 2);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//php.somirp/madnuf/rb.moc.acitametamos.www//:ptth//
-//:esseca somirp soremún so erbos siam rebas araP//
-//.omsem o enroter lanif on e rodatnoc mu etnemercni omirp rof oremun o eS//
-//.y e 1+x ertne i otnemele adac arap railixua oãçnuf asse esU//
-//.oãn uo omirp rof odassap oremun o es eslaf uo eurt enroter euq railixua oãçnuf amu açaF//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//http://www.somatematica.com.br/fundam/primos.php
+//Para saber mais sobre os números primos acesse:
+//Se o numero for primo incremente um contador e no final retorne o mesmo.
+//Use essa função auxiliar para cada elemento i entre x+1 e y.
+//Faça uma função auxiliar que retorne true ou false se o numero passado for primo ou não.
+

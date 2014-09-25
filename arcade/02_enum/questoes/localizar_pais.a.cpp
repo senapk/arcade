@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -32,15 +31,13 @@ void tests(){
     cout << (acharLocalizacao(EUA) == AmericaNorte);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//lmth.sesiap/otua-sacidiruj-seocagil/tp.cddg.www//:ptth//
-//:esseca ,odajurrevne ocuop mu ajetse aifargoeg ed otnemicehnoc ues osaC//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//http://www.gddc.pt/ligacoes-juridicas-auto/paises.html
+//Caso seu conhecimento de geografia esteja um pouco enverrujado, acesse:
+

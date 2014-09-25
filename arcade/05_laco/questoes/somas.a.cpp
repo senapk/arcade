@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -32,28 +31,26 @@ auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
 	cout << ("#open somatorio_0_a_num") << endl;
-	cout << ("#set BRONZE LACO") << endl;
+	cout << ("#set BRONZE FOR") << endl;
 	cout << (somatorio_0_a_num(10) == 55);
     cout << (somatorio_0_a_num(1) == 1);
     cout << (somatorio_0_a_num(3) == 6);
     cout << (somatorio_0_a_num(5) == 15);
     cout << endl;
 
-    cout << "#open somatorio_x_y BRONZE LACO" << endl;
+    cout << "#open somatorio_x_y BRONZE FOR" << endl;
     cout << (somatorio_x_y(9, 10) == 19);
     cout << (somatorio_x_y(1, 3) == 6);
     cout << (somatorio_x_y(4, 7) == 22);
 
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.oçal mu me odaretni oremún adac ed amos a adraug euq railixua leváirav amu esU//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//Use uma variável auxiliar que guarda a soma de cada número interado em um laço.
+

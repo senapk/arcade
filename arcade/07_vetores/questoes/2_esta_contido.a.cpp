@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -27,16 +26,14 @@ void tests() {
     cout << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 5, 4, 2, 0}) == false);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.2v me oditnoc//
-//ratse edop ós 1v ,2v me meritsixe 1v ed sotnemele so sodot es :aciD//
-//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//contido em v2.
+//Dica: se todos os elementos de v1 existirem em v2, v1 só pode estar
+
+

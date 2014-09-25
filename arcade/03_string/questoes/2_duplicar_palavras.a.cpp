@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -30,21 +29,19 @@ void tests() {
 	cout << (duplicar_palavras("BATATAS VOADORAS DE MARTE\0") == "BATATAS BATATAS VOADORAS VOADORAS DE DE MARTE MARTE");
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//
-//
-//.oçapse me oan//
-//'0\' me animret ale siop ,arvalap amitlu a ratart ed es-erbmel ,artuo a arvalap amu odnanetacnoc iav e//
-//,gnirts avon amu a arvalap amu osac on ,gnirts asse atnecserca cv ,rartnocne o cv odnauq//
-//oçapse mu rartnocne eta arvalap adac alen odnezamra e railixua gnirts amu rairc edop êcov//
-//spit//
-//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+
+
+//nao em espaço.
+//e vai concatenando uma palavra a outra, lembre-se de tratar a ultima palavra, pois ela termina em '\0'
+//quando vc o encontrar, vc acrescenta essa string, no caso uma palavra a uma nova string,
+//você pode criar uma string auxiliar e armazendo nela cada palavra ate encontrar um espaço
+//tips
+
+

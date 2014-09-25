@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -29,17 +28,15 @@ void tests() {
     cout << (feq(distancia_pontos(-2,3,-5,-9), 12.36));
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//
-//
-//lmth.sotnop-siod-ertne-aicnatsid/acitametam/moc.oacacudeodnum.www//:ptth//
-//:etis o etisiv siam rebas araP//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :).
+
+
+//http://www.mundoeducacao.com/matematica/distancia-entre-dois-pontos.html
+//Para saber mais visite o site:
+

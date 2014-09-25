@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -48,24 +47,22 @@ void tests(){
     cout << (feq(converter(373.0, KELVIN, FARENHEIT), 212.00));
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.k2c e c2f rasu atsab nivlek arap tiehneraf ed retrevnoc araP//
-//}//
-//;372 + rolav nruter	//
-//{)rolav taolf(k2c taolf//
-//:olpmexE//
-//nivlek arap suislec ed >- k2c//
-//suislec arap nivlek ed >- c2k//
-//suislec arap tiehneraf ed etrevnoc >- c2f//
-//tiehneraf arap suislec ed etrevnoc >- f2c//
-//.retrevnoc oãçnuf an sa-ezilitu sioped e//
-//siaudividni serolav metrevnoc euq seõtseuq sa oriemirp açaF//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//Para converter de farenheit para kelvin basta usar f2c e c2k.
+//}
+//	return valor + 273;
+//float c2k(float valor){
+//Exemplo:
+//c2k -> de celsius para kelvin
+//k2c -> de kelvin para celsius
+//f2c -> converte de farenheit para celsius
+//c2f -> converte de celsius para farenheit
+//e depois utilize-as na função converter.
+//Faça primeiro as questões que convertem valores individuais
+

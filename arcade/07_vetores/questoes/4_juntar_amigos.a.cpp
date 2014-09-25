@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <iostream>
@@ -45,15 +44,13 @@ void tests(){
     cout << (juntar_varios({12345, 6789, 0}) == 1234567890);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.011 é }01 ,1{ ratnuj E .401 é }4 ,01{ ratnuj euq evresbO//
-//.rotev o odot ranetacnoc arap oçal mu esu e soremún siod ranetacnoc a adnerpA//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//Observe que juntar {10, 4} é 104. E juntar {1, 10} é 110.
+//Aprenda a concatenar dois números e use um laço para concatenar todo o vetor.
+

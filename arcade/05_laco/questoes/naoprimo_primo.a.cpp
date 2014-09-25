@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -36,17 +35,15 @@ void tests() {
 
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.saud sa ertne açnerefid a enroter sioped railixua leváirav artuo moc//
-//emos oãn es ,railixua leváirav amu me ele emos omirp rof oremún o es e oçal mu me amic a adatic oãçnuf a esU//
-//.oãn uo omirp é ele es anroter e ortemârap rop oremún mu ebecer euq railixua oãçnuf amu açaF :spit//
-//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//com outra variável auxiliar depois retorne a diferença entre as duas.
+//Use a função citada a cima em um laço e se o número for primo some ele em uma variável auxiliar, se não some
+//tips: Faça uma função auxiliar que recebe um número por parâmetro e retorna se ele é primo ou não.
+
+

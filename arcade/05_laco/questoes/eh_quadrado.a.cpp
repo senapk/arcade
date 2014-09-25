@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -34,15 +33,13 @@ void tests() {
     cout << (eh_quadrado_perfeito(6084) == true);
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-///otiefrep-odardauq/golb/rb.gro.pembo.sebulc//:ptth//
-//:esseca sotiefrep sodardauq so erbos siam rebas araP//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//http://clubes.obmep.org.br/blog/quadrado-perfeito/
+//Para saber mais sobre os quadrados perfeitos acesse:
+
