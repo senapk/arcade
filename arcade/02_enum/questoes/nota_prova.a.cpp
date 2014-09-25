@@ -10,27 +10,26 @@ using namespace std;
 //@begin
 
 //Faça um programa que receba um valor float de uma nota entre 0 e 10
-//e retorne a categoria que o aluno ficou.
-//Menor que 4 - CatD
-//Entre 4 e 7 - CatC
-//Entre 7 e 9 - CatB
-//Maior que 9 - CatA
-//Valor inválido - return CatErro
-//@return: retorna um enum.
+//e retorne o resultado da disciplina.
+//Menor que 4 - Reprovado
+//Entre 4 e 7 - Final
+//Maior que 7 - Aprovado
+//Valor inválido - Erro
+//@return: retorna uma Categoria
 
-enum Categoria { CatA, CatB, CatC, CatD, CatErro};
+enum Categoria { Reprovado, Final, Aprovado, Erro};
 
 Categoria categoria (float nota){
-	return CatA;
+	return Erro;
 }
 //@end
 
 //@tests
 void tests(){
-	cout << "#open nota_prova BRONZE IF ENUM" << endl;
-	cout << (categoria(3.0) == CatD);
-    cout << (categoria(7.0) == CatB);
-    cout << (categoria(6.9) == CatC);
+	cout << "#open nota_prova BRONZE IF ENUM ";
+	cout << (categoria(3.0) == Reprovado);
+    cout << (categoria(7.0) == Aprovado);
+    cout << (categoria(6.9) == Final);
 }
 
 int main(){

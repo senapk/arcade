@@ -5,7 +5,7 @@
 /////////////////////////////////////////////
 
 #include <iostream>
-#include <cmotor.h>
+#include <motor.h>
 using namespace std;
 //@begin
 

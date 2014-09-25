@@ -1,8 +1,7 @@
 /////////////////////////////////////////////
 // Fundamentos de Programação - UFC Quixada
-// motor.h: Baixe em http:tinyurl.com/fup-motor-h
-// coloque em /usr/local/include/motor.h
-// ou apenas comente a linha #include <motor.h>
+// Baixe o motor.h ou comente o include
+// motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
 #include <motor.h>
@@ -31,16 +30,14 @@ void tests() {
     cout << (feq(arredondamento(7.24), 7.00));
 }
 
-//@tips
-//http://reverse-string.wezo.com.br/pt-BR
-//
-//.otnemadnoderra ed seõçidnoc sa rezaf ós//
-//é íad ritrap a ,lamiced rolav o áret êcov arietni a e taolf me aton a ertne//
-//açnerefid a odnaluclac ,aton ad orietni rolav o edraug euq levairav amu eirC//
-//
-
 int main(){
     tests();
     cout << endl << "#end";
     return(0);
 }
+//@tips
+//As linhas estão invertidas para você não ler sem querer :)
+//só fazer as condições de arredondamento.
+//entre a nota em float e a inteira você terá o valor decimal, a partir daí é
+//Crie uma variavel que guarde o valor inteiro da nota, calculando a diferença
+

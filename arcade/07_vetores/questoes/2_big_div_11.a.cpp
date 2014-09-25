@@ -27,11 +27,11 @@ bool eh_divisivel_por_11(string num){
 //@end
 
 void tests() {
-	cout << "#open eh_div_11 PRATA IF FOR STRING" << endl;
-	cout << (eh_divisivel_por_11("11") == true);
-	cout << (eh_divisivel_por_11("1") == false);
-	cout << (eh_divisivel_por_11("110") == true);
-	cout << (eh_divisivel_por_11("121") == true);
+    cout << "#open eh_div_11 PRATA IF FOR STRING" << endl;
+    cout << (eh_divisivel_por_11("11") == true);
+    cout << (eh_divisivel_por_11("1") == false);
+    cout << (eh_divisivel_por_11("110") == true);
+    cout << (eh_divisivel_por_11("121") == true);
 }
 
 int main(){
