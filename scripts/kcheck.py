@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Remonta o codigo do aluno"""
-"""./remount.py master.cpp a.alu.cpp"""
+"""
+Gera e executa o codigo do aluno
+./kcheck.py codigo.p.cpp
+
+ou
+kcheck.py *.p.cpp
+
+"""
 
 __author__ = "David Sena"
 

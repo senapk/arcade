@@ -1,0 +1,6 @@
+MASTER_EXT = ".p.cpp"
+UPLOAD_EXT = ".a.cpp"
+REMOUNT_EXT = ".b.cpp"
+ERROR_EXT = ".b.err"
+EXEC_EXT = ".b.out"
+OUTPUT_EXT = ".b.txt"
