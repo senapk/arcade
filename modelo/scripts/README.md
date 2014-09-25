@@ -7,8 +7,8 @@ Você aluno, não precisa deles.
 Para instalar os scritps, coloque-os na pasta /usr/local/bin/::
 
     cd /usr/local/bin/
-    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/scripts/modelo/kcheck.py
-    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/scripts/modelo/kcomposer.py
-    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/scripts/modelo/kfix.py
-    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/scripts/modelo/kgenerate.py
+    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/modelo/scripts/kcheck.py
+    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/modelo/scripts/kcomposer.py
+    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/modelo/scripts/kfix.py
+    sudo wget https://raw.githubusercontent.com/senapk/arcade/master/modelo/scripts/kgenerate.py
 
