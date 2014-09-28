@@ -77,11 +77,13 @@ def processar_texto(texto):
             if(letra == " "):
                 pos += 1
                 continue
-            if(letra == '\t'):
-                pos += 4
-                continue
-            break
-        return pos
+            else:
+                if(letra == '\t'):
+                    pos += 4
+                    continue
+                else:
+                    return pos
+        return -1  # linha vazia
 
     texto = texto.split("\n")
     INCLUSAO = 1
@@ -113,18 +115,16 @@ def processar_texto(texto):
             if(estado == NORMAL):
                 saida += linha + "\n"
             if(estado == INCLUSAO):
-                if(get_identacao(linha) < identacao):
-                    if(len(linha) != 0):
-                        saida += linha + "\n"
-                        estado = NORMAL
-                else:
-                    if(eh_comentario(linha)):
-                        saida += linha.replace("//", "", 1) + '\n'
-                    else:
-                        estado = NORMAL
-            if(estado == EXCLUSAO):
-                if(get_identacao(linha) < identacao):
-                    if(len(linha) != 0):
+                # processando comentario
+                if(eh_comentario(linha)):
+                    saida += linha.replace("//", "", 1) + '\n'
+
+            # entrando em normal por quebra de tab e inserindo
+            # a linha normalmente
+            if(estado == EXCLUSAO or estado == INCLUSAO):
+                nivel = get_identacao(linha)
+                if(nivel < identacao):
+                    if(nivel != -1):
                         saida += linha + "\n"
                         estado = NORMAL
     return saida
