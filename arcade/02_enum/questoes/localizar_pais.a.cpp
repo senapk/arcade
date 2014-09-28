@@ -25,15 +25,15 @@ Continente acharLocalizacao( Pais pais){
 
 //@tests
 void tests(){
-	cout << "#open acharLocalizacao BRONZE ENUM" << endl;
-	cout << (acharLocalizacao(Brasil) == AmericaSul);
-    cout << (acharLocalizacao(Italia) == Europa);
-    cout << (acharLocalizacao(EUA) == AmericaNorte);
+	cerr << "#open acharLocalizacao BRONZE ENUM" << endl;
+	cerr << (acharLocalizacao(Brasil) == AmericaSul);
+    cerr << (acharLocalizacao(Italia) == Europa);
+    cerr << (acharLocalizacao(EUA) == AmericaNorte);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

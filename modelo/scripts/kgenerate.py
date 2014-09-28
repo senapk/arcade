@@ -35,7 +35,7 @@ header = """/////////////////////////////////////////////
 /////////////////////////////////////////////
 """
 
-simple_main = '\nint main(){\n    tests();\n    cout << endl << "#end";\n    return(0);\n}'
+simple_main = '\nint main(){\n    tests();\n    cerr << endl << "#end";\n    return(0);\n}'
 
 
 def processar_texto(texto):
@@ -211,6 +211,7 @@ def gen_aluno(path_master):
         fname = path_master.replace(".p.cpp", "")
         fname = fname.replace(".cpp", "")
         text = arq.read()
+        text = text.replace('\t', '    ')
         pi = separate(text)
 
         # coloca no formato a.fname.cpp

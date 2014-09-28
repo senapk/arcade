@@ -52,24 +52,24 @@ float valor_imovel(Imovel imovel){
 
 //@tests
 void tests(){
-	cout << "#open valor_imovel BRONZE IF ENUM STRUCT" << endl;
+	cerr << "#open valor_imovel BRONZE IF ENUM STRUCT" << endl;
 	{
 		Imovel im{3,3,100,3,CENTRO};
-		cout << (valor_imovel(im) == 741710);
+		cerr << (valor_imovel(im) == 741710);
 	}
 	{
 		Imovel im{3,3,100,3,ZONA_LESTE};
-		cout << (valor_imovel(im) == 654450);
+		cerr << (valor_imovel(im) == 654450);
 	}
 	{
 		Imovel im{3,3,100,3,ZONA_SUL};
-		cout << (valor_imovel(im) == 698080);
+		cerr << (valor_imovel(im) == 698080);
 	}
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

@@ -26,14 +26,14 @@ Categoria categoria (float nota){
 
 //@tests
 void tests(){
-	cout << "#open nota_prova BRONZE IF ENUM ";
-	cout << (categoria(3.0) == Reprovado);
-    cout << (categoria(7.0) == Aprovado);
-    cout << (categoria(6.9) == Final);
+	cerr << "#open nota_prova BRONZE IF ENUM ";
+	cerr << (categoria(3.0) == Reprovado);
+    cerr << (categoria(7.0) == Aprovado);
+    cerr << (categoria(6.9) == Final);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

@@ -27,16 +27,16 @@ int primeiros_primos(int x, int y){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cout << ("#open soma_primos") << endl;
-	cout << ("#set BRONZE IF FOR") << endl;
-    cout << (primeiros_primos(1, 5) == 3);
-    cout << (primeiros_primos(6, 12) == 2);
-    cout << (primeiros_primos(11, 18) == 2);
+	cerr << ("#open soma_primos") << endl;
+	cerr << ("#set BRONZE IF FOR") << endl;
+    cerr << (primeiros_primos(1, 5) == 3);
+    cerr << (primeiros_primos(6, 12) == 2);
+    cerr << (primeiros_primos(11, 18) == 2);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

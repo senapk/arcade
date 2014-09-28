@@ -31,14 +31,14 @@ bool bateu_ordenado(Carta um, Carta dois, Carta tres){
 //@end
 
 void tests(){
-    cout << "#open bateu_ordenado" << endl;
-    cout << "#set BRONZE IF ENUM STRUCT" << endl;
-    cout << (bateu_ordenado(Carta{DOIS, PAUS}, Carta{TRES, OUROS}, Carta{QUATRO, ESPADAS}) == false);
-    cout << (bateu_ordenado(Carta{DOIS, OUROS}, Carta{TRES, OUROS}, Carta{QUATRO, OUROS}) == true);
+    cerr << "#open bateu_ordenado" << endl;
+    cerr << "#set BRONZE IF ENUM STRUCT" << endl;
+    cerr << (bateu_ordenado(Carta{DOIS, PAUS}, Carta{TRES, OUROS}, Carta{QUATRO, ESPADAS}) == false);
+    cerr << (bateu_ordenado(Carta{DOIS, OUROS}, Carta{TRES, OUROS}, Carta{QUATRO, OUROS}) == true);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

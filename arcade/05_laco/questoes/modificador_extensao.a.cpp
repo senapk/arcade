@@ -36,17 +36,17 @@ string modificar_extencao(string nome_arq, string extencao){
 
 //@tests
 void tests(){
-    cout << "#open modificar_extencao BRONZE IF FOR STRING" << endl;
-    cout << (modificar_extencao("arquivo",".odt") == "arquivo.odt");
-    cout << (modificar_extencao("arquivo",".xls") == "arquivo.xls");
-    cout << (modificar_extencao("arquivo.ppt",".odt") == "arquivo.ppt.odt");
-    cout << (modificar_extencao("arquivo.exe",".exe") == "arquivo.exe");
-    cout << (modificar_extencao("a",".out") == "a.out");
+    cerr << "#open modificar_extencao BRONZE IF FOR STRING" << endl;
+    cerr << (modificar_extencao("arquivo",".odt") == "arquivo.odt");
+    cerr << (modificar_extencao("arquivo",".xls") == "arquivo.xls");
+    cerr << (modificar_extencao("arquivo.ppt",".odt") == "arquivo.ppt.odt");
+    cerr << (modificar_extencao("arquivo.exe",".exe") == "arquivo.exe");
+    cerr << (modificar_extencao("a",".out") == "a.out");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

@@ -685,7 +685,7 @@ class Motor{
 
 static Motor motor;
 
-#define cout motor
+#define cerr motor
 
 #endif //STATIC_H
 

@@ -29,24 +29,24 @@ void inserir_ordenado(vector<int>& vet, int elem){
 //@end
 
 void tests(){
-    cout << "#open inserir_ordenado ";
+    cerr << "#open inserir_ordenado ";
     {
         vector<int> vet {1, 2, 3};
         vector<int> out {0, 1, 2, 3};
         inserir_ordenado(vet, 0);
-        cout << (vet == out);
+        cerr << (vet == out);
     }
     {
         vector<int> vet {1, 2, 3, 4, 6, 7, 8};
         vector<int> out {1, 2, 3, 4, 5, 6, 7, 8};
         inserir_ordenado(vet, 5);
-        cout << (vet == out);
+        cerr << (vet == out);
     }
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

@@ -29,25 +29,25 @@ bool remover_com_swap(int v[], int &tam, int elem) {
 //@end
 
 void tests() {
-	cout << ("#open remover_swap PRATA FOR VETOR");
+	cerr << ("#open remover_swap PRATA FOR VETOR");
 
 	int v1[] = {1};
 	int tam1 = 1;
 
-	cout << (remover_com_swap(v1, tam1, 1) == true);
-	cout << (tam1 == 0);
+	cerr << (remover_com_swap(v1, tam1, 1) == true);
+	cerr << (tam1 == 0);
 
 	int v2[] = {1, 2, 3};
 	int tam2 = 3;
 
-	cout << (remover_com_swap(v2, tam2, 4) == false);
-	cout << (remover_com_swap(v2, tam2, 3) == true);
-	cout << (v2[0] == 1);
-	cout << (v2[1] == 2);
+	cerr << (remover_com_swap(v2, tam2, 4) == false);
+	cerr << (remover_com_swap(v2, tam2, 3) == true);
+	cerr << (v2[0] == 1);
+	cerr << (v2[1] == 2);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

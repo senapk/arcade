@@ -20,17 +20,17 @@ bool eh_primo(int numero) {
 
 //@tests
 void tests() {
-	cout << ("#open eh_primo") << endl;
-	cout << ("#set PRATA IF FOR") << endl;
-	cout << (eh_primo(5) == true);
-	cout << (eh_primo(3) == true);
-	cout << (eh_primo(0) == false);
-	cout << (eh_primo(2) == true);
+	cerr << ("#open eh_primo") << endl;
+	cerr << ("#set PRATA IF FOR") << endl;
+	cerr << (eh_primo(5) == true);
+	cerr << (eh_primo(3) == true);
+	cerr << (eh_primo(0) == false);
+	cerr << (eh_primo(2) == true);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

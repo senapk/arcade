@@ -45,16 +45,16 @@ int interpretador_inteiro(string letra, int a, int b)
 //@end
 
 void tests(){
-	cout << "#open interpretador_inteiro" << endl;
-	cout << (interpretador_inteiro("add", 20, 40) == 60);
-	cout << (interpretador_inteiro("sub", 20, 40) == -20);
-	cout << (interpretador_inteiro("mul", 5, 9) == 45);
-	cout << (interpretador_inteiro("div", 10, 5) == 2);
-	cout << (interpretador_inteiro("mod", 10, 5) == 0);
+	cerr << "#open interpretador_inteiro" << endl;
+	cerr << (interpretador_inteiro("add", 20, 40) == 60);
+	cerr << (interpretador_inteiro("sub", 20, 40) == -20);
+	cerr << (interpretador_inteiro("mul", 5, 9) == 45);
+	cerr << (interpretador_inteiro("div", 10, 5) == 2);
+	cerr << (interpretador_inteiro("mod", 10, 5) == 0);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

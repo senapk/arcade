@@ -30,34 +30,34 @@ void trocar(vector<int>& onibus, vector<int>& topic){
 //@end
 
 void tests(){
-    cout << "#open trocas_onibus OURO";
+    cerr << "#open trocas_onibus OURO";
     vector<int> onibus_in, onibus_out, topic_in, topic_out;
 
     {
         onibus_in = {2, -1, 4}; topic_in = { 3};
         onibus_out= {2,  3, 4}; topic_out= { -1};
         trocar(onibus_in, topic_in);
-        cout << (onibus_in == onibus_out);
-        cout << (topic_in == topic_out);
+        cerr << (onibus_in == onibus_out);
+        cerr << (topic_in == topic_out);
     }
     {
         onibus_in = {-2, -1, -4}; topic_in = { 3};
         onibus_out= { 3, -1, -4}; topic_out= { -2};
         trocar(onibus_in, topic_in);
-        cout << (onibus_in == onibus_out);
-        cout << (topic_in == topic_out);
+        cerr << (onibus_in == onibus_out);
+        cerr << (topic_in == topic_out);
     }
     {
         onibus_in = {-2, -1, -4}; topic_in = {1, 2, 3};
         onibus_out= { 1, 2, 3}; topic_out= {-2, -1, -4};
         trocar(onibus_in, topic_in);
-        cout << (onibus_in == onibus_out);
-        cout << (topic_in == topic_out);
+        cerr << (onibus_in == onibus_out);
+        cerr << (topic_in == topic_out);
     }
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

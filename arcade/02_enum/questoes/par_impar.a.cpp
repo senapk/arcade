@@ -20,13 +20,13 @@ Resultado quem_ganhou( Opcao jog1, int valor_jog1, int valor_jog2){
 //@end
 
 void tests(){
-    cout << "#open par_impar BRONZE IF ENUM ";
-    cout << (quem_ganhou(PAR, 1, 1) == JOGADOR1);
-    cout << (quem_ganhou(IMPAR, 1, 1) == JOGADOR2);
+    cerr << "#open par_impar BRONZE IF ENUM ";
+    cerr << (quem_ganhou(PAR, 1, 1) == JOGADOR1);
+    cerr << (quem_ganhou(IMPAR, 1, 1) == JOGADOR2);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

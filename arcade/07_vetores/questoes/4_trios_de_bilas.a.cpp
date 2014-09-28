@@ -32,14 +32,14 @@ int contar_trios(vector<int> sacola){
 
 void tests ()
 {
-    cout << "#open trio_bilas DIAMANTE ";
-    cout << (contar_trios({1, 1, 1}) == 1);
-    cout << (contar_trios({1, 1}) == 0);
-    cout << (contar_trios({1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3}) == 4);
+    cerr << "#open trio_bilas DIAMANTE ";
+    cerr << (contar_trios({1, 1, 1}) == 1);
+    cerr << (contar_trios({1, 1}) == 0);
+    cerr << (contar_trios({1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3}) == 4);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

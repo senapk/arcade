@@ -22,19 +22,19 @@ string retira_espaco(string A){
 //@tests
 
 void tests() {
-	cout << ("#open retira_espaco") << endl;
-	cout << ("#set PRATA STRING IF FOR") << endl;
+	cerr << ("#open retira_espaco") << endl;
+	cerr << ("#set PRATA STRING IF FOR") << endl;
 	string a1 = "HELLO       WORLD\0";
-	cout << (retira_espaco(a1) == "HELLO WORLD\0");
+	cerr << (retira_espaco(a1) == "HELLO WORLD\0");
 	string a2 = "LABORATORIO     DE      PROGRAMACAO      I\0";
-    cout << (retira_espaco(a2) == "LABORATORIO DE PROGRAMACAO I\0");
+    cerr << (retira_espaco(a2) == "LABORATORIO DE PROGRAMACAO I\0");
     string a3 = "BOLA     DE      FUTEBOL\0";
-    cout << (retira_espaco(a3) == "BOLA DE FUTEBOL\0");
+    cerr << (retira_espaco(a3) == "BOLA DE FUTEBOL\0");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

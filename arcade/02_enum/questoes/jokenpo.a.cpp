@@ -24,14 +24,14 @@ Resultado quem_ganhou( Opcao jog1, Opcao jog2){
 
 //@tests
 void tests(){
-    cout << "#open quem_ganhou BRONZE IF ENUM" << endl;
-    cout << (quem_ganhou(PEDRA, PEDRA) == EMPATE);
-    cout << (quem_ganhou(PEDRA, TESOURA) == JOGADOR1);
-    cout << (quem_ganhou(PAPEL, TESOURA) == JOGADOR2);
+    cerr << "#open quem_ganhou BRONZE IF ENUM" << endl;
+    cerr << (quem_ganhou(PEDRA, PEDRA) == EMPATE);
+    cerr << (quem_ganhou(PEDRA, TESOURA) == JOGADOR1);
+    cerr << (quem_ganhou(PAPEL, TESOURA) == JOGADOR2);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

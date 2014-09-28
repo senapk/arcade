@@ -19,16 +19,16 @@ int fatorial(int numero) {
 //@end
 
 void tests() {
-	cout << ("#open fatorial") << endl;
-	cout << ("#set PRATA FOR") << endl;
-	cout << (fatorial(1) == 1);
-	cout << (fatorial(2) == 2);
-	cout << (fatorial(3) == 6);
+	cerr << ("#open fatorial") << endl;
+	cerr << ("#set PRATA FOR") << endl;
+	cerr << (fatorial(1) == 1);
+	cerr << (fatorial(2) == 2);
+	cerr << (fatorial(3) == 6);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

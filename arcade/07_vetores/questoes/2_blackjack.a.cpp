@@ -28,16 +28,16 @@ int blackjack(vector<int> mao){
 //@end
 
 void tests(){
-    cout << "#open blackjack ";
-    cout << (blackjack({1, 13}) == 21);
-    cout << (blackjack({11, 13}) == 20);
-    cout << (blackjack({1, 1, 1}) == 13);
-    cout << (blackjack({1, 1, 2, 3, 12}) == 17);
-    cout << (blackjack({1, 1, 2, 10, 12}) == 24);
+    cerr << "#open blackjack ";
+    cerr << (blackjack({1, 13}) == 21);
+    cerr << (blackjack({11, 13}) == 20);
+    cerr << (blackjack({1, 1, 1}) == 13);
+    cerr << (blackjack({1, 1, 2, 3, 12}) == 17);
+    cerr << (blackjack({1, 1, 2, 10, 12}) == 24);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

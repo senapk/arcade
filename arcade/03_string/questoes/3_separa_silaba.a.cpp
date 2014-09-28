@@ -26,16 +26,16 @@ string separa_silaba(string a){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-    cout << ("#open separa_silaba") << endl;
-    cout << ("#set PRATA STRING FOR IF") << endl;
-    cout << (separa_silaba("Paralelepipedo") == "Pa-ra-le-le-pi-pe-do");
-    cout << (separa_silaba("Paraguai") == "Pa-ra-guai");
-    cout << (separa_silaba("Havaiana de Palmeira") == "Ha-vaia-na de Pa-lmei-ra");
+    cerr << ("#open separa_silaba") << endl;
+    cerr << ("#set PRATA STRING FOR IF") << endl;
+    cerr << (separa_silaba("Paralelepipedo") == "Pa-ra-le-le-pi-pe-do");
+    cerr << (separa_silaba("Paraguai") == "Pa-ra-guai");
+    cerr << (separa_silaba("Havaiana de Palmeira") == "Ha-vaia-na de Pa-lmei-ra");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

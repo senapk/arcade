@@ -37,14 +37,14 @@ NivelObesidade verificarPeso(float peso, float altura){
 
 //@tests
 void tests(){
-    cout << "#open verificarPeso BRONZE IF ENUM" << endl;
-    cout << (verificarPeso(70.0, 1.80) == Normal);
-    cout << (verificarPeso(85.0, 1.80) == Acima);
-    cout << (verificarPeso(100.0, 1.80) == Obeso);
+    cerr << "#open verificarPeso BRONZE IF ENUM" << endl;
+    cerr << (verificarPeso(70.0, 1.80) == Normal);
+    cerr << (verificarPeso(85.0, 1.80) == Acima);
+    cerr << (verificarPeso(100.0, 1.80) == Obeso);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

@@ -14,7 +14,7 @@ using namespace std;
 //em um plano cartesiano.
 //@return: Distância dos dois pontos.
 float distancia_pontos(int x1, int y1, int x2, int y2){
-	return 0.0;
+    return 0.0;
 }
 
 //@end
@@ -23,14 +23,14 @@ float distancia_pontos(int x1, int y1, int x2, int y2){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cout << ("#open distancia_pontos") << endl;
-	cout << ("#set BRONZE") << endl;
-    cout << (feq(distancia_pontos(-2,3,-5,-9), 12.36));
+    cerr << ("#open distancia_pontos") << endl;
+    cerr << ("#set BRONZE") << endl;
+    cerr << (feq(distancia_pontos(-2,3,-5,-9), 12.36));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

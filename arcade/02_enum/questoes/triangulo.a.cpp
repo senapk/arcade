@@ -24,16 +24,16 @@ Triangulos triangulo(int l1, int l2, int l3){
 
 //@tests
 void tests(){
-	cout << "#open triangulo BRONZE IF ENUM" << endl;
-	cout << (triangulo(5, 5, 2) == ISOSCELES);
-    cout << (triangulo(5, 8, 9) == ESCALENO);
-    cout << (triangulo(8, 8, 8) == EQUILATERO);
+	cerr << "#open triangulo BRONZE IF ENUM" << endl;
+	cerr << (triangulo(5, 5, 2) == ISOSCELES);
+    cerr << (triangulo(5, 8, 9) == ESCALENO);
+    cerr << (triangulo(8, 8, 8) == EQUILATERO);
 
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips
