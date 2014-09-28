@@ -154,7 +154,7 @@ def format_tips(text, to_invert):
     """
     saida = ""
     saida += "\n//@tips"
-    saida += "\n//As linhas estão invertidas para você não ler sem querer :)"
+    saida += "\n//As linhas estão invertidas para você não ler sem querer :)\n"
     # saida = saida + "\n//http://reverse-string.wezo.com.br/pt-BR\n"
     if to_invert:
         linhas_dicas = text.split('\n')
