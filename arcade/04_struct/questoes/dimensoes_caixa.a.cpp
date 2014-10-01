@@ -36,20 +36,20 @@ Resposta calcula_area_volume( Dimensoes dim ){
 auto feq = [](float A, float B)->bool{return (fabs(A - B) < 0.01);};
 
 void tests(){
-    cout << "#open calcula_area_volume" << endl;
-    cout << "#set PRATA STRUCT" << endl;
+    cerr << "#open calcula_area_volume" << endl;
+    cerr << "#set PRATA STRUCT" << endl;
     {
         Dimensoes dim{10,10,10};
         Resposta res = calcula_area_volume(dim);
 
-        cout << (feq(res.volume, 1000.0));
-        cout << (feq(res.area, 600.0));
+        cerr << (feq(res.volume, 1000.0));
+        cerr << (feq(res.area, 600.0));
     }
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

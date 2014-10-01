@@ -28,19 +28,20 @@ string sub_string(string palavra, int inicio, int fim){
 
 //@tests
 void tests(){
-    cout << "#open sub_string BRONZE IF FOR STRING" << endl;
-    cout << (sub_string("Pterodactilo", 2, 5)  == "erod");
-    cout << (sub_string("Power Ranger", 4, 11) == "r Ranger");
-    cout << (sub_string("Jaspion", 2, 6) == "spion");
+    cerr << "#open sub_string BRONZE IF FOR STRING" << endl;
+    cerr << (sub_string("Pterodactilo", 2, 5)  == "erod");
+    cerr << (sub_string("Power Ranger", 4, 11) == "r Ranger");
+    cerr << (sub_string("Jaspion", 2, 6) == "spion");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 
 //Dicas: Nenhuma
 

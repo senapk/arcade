@@ -22,15 +22,15 @@ vector<int> decompor_int(int num){
 //@end
 
 void tests(){
-    cout << ("#open decompor_int OURO IF FOR VETOR ");
-    cout << (decompor_int(0) == vector<int>({0}));
-    cout << (decompor_int(4) == vector<int>({4}));
-    cout << (decompor_int(41234) == vector<int>({4, 1, 2, 3, 4}));
-    cout << (decompor_int(41934) == vector<int>({4, 1, 9, 3, 4}));
+    cerr << ("#open decompor_int OURO IF FOR VETOR ");
+    cerr << (decompor_int(0) == vector<int>({0}));
+    cerr << (decompor_int(4) == vector<int>({4}));
+    cerr << (decompor_int(41234) == vector<int>({4, 1, 2, 3, 4}));
+    cerr << (decompor_int(41934) == vector<int>({4, 1, 9, 3, 4}));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

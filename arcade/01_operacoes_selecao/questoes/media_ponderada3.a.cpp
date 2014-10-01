@@ -13,7 +13,7 @@ using namespace std;
 //média ponderada dessas notas.
 //@return: retorna um float.
 float media_ponderada( float nota1, float nota2, float nota3, float peso1, float peso2, float peso3 ){
-	return 0.0;
+    return 0.0;
 }
 
 //@end
@@ -21,15 +21,15 @@ float media_ponderada( float nota1, float nota2, float nota3, float peso1, float
 //@tests
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 void tests() {
-	cout << ("#open media_ponderada_3") << endl;
-	cout << ("#set BRONZE") << endl;
-	cout << (feq(media_ponderada(7, 6, 8, 1, 2, 3), 7.16));
-    cout << (feq(media_ponderada(8.9, 6.7, 8.1, 1.2, 2.4, 3.5), 7.76));
+    cerr << ("#open media_ponderada_3") << endl;
+    cerr << ("#set BRONZE") << endl;
+    cerr << (feq(media_ponderada(7, 6, 8, 1, 2, 3), 7.16));
+    cerr << (feq(media_ponderada(8.9, 6.7, 8.1, 1.2, 2.4, 3.5), 7.76));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

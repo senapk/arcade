@@ -52,16 +52,16 @@ vector<int> fatores_comuns(int A, int B)
 //@end
 
 void tests() {
-    cout << "#open fatores_comuns OURO IF FOR VECTOR ";
-    cout << (fatores_comuns( 5, 3)  == vector<int>({}));
-    cout << (fatores_comuns( 8, 4)  == vector<int>({2}));
-    cout << (fatores_comuns(15, 6) == vector<int>({3}));
-    cout << (fatores_comuns(18, 6) == vector<int>({2, 3}));
-    cout << (fatores_comuns(30, 36) == vector<int>({2, 3}));
+    cerr << "#open fatores_comuns OURO IF FOR VECTOR ";
+    cerr << (fatores_comuns( 5, 3)  == vector<int>({}));
+    cerr << (fatores_comuns( 8, 4)  == vector<int>({2}));
+    cerr << (fatores_comuns(15, 6) == vector<int>({3}));
+    cerr << (fatores_comuns(18, 6) == vector<int>({2, 3}));
+    cerr << (fatores_comuns(30, 36) == vector<int>({2, 3}));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

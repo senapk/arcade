@@ -16,26 +16,27 @@ using namespace std;
 //Saida: "OLA OLA PLANETA PLANETA TERRA TERRA"
 //@return: retorna uma string.
 string duplicar_palavras(string a){
-	return "abc";
+    return "abc";
 }
 
 //@end
 
 void tests() {
-	cout << ("#open duplicar_palavras") << endl;
-	cout << ("#set PRATA FOR IF STRING") << endl;
-	cout << (duplicar_palavras("OLA PESSOAS DA TERRA\0") == "OLA OLA PESSOAS PESSOAS DA DA TERRA TERRA\0");
-	cout << (duplicar_palavras("EU SOU A LENDA\0") == "EU EU SOU SOU A A LENDA LENDA\0");
-	cout << (duplicar_palavras("BATATAS VOADORAS DE MARTE\0") == "BATATAS BATATAS VOADORAS VOADORAS DE DE MARTE MARTE");
+    cerr << ("#open duplicar_palavras") << endl;
+    cerr << ("#set PRATA FOR IF STRING") << endl;
+    cerr << (duplicar_palavras("OLA PESSOAS DA TERRA\0") == "OLA OLA PESSOAS PESSOAS DA DA TERRA TERRA\0");
+    cerr << (duplicar_palavras("EU SOU A LENDA\0") == "EU EU SOU SOU A A LENDA LENDA\0");
+    cerr << (duplicar_palavras("BATATAS VOADORAS DE MARTE\0") == "BATATAS BATATAS VOADORAS VOADORAS DE DE MARTE MARTE");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 
 
 //nao em espaço.

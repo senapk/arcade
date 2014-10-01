@@ -22,20 +22,20 @@ using namespace std;
 //Você deve retornar true caso a bola de boliche caiba dentro da caixa, se não couber retorne false.
 //@return: A funcao deve retornar um boolean.
 bool diametro_caixa(int diametro, int altura, int largura, int profundidade){
-	return false;
+    return false;
 }
 
 //@end
 
 void tests(){
-    cout << "#open boliche" << endl;
-    cout << (diametro_caixa(3,3,2,5) == false);
-    cout << (diametro_caixa(5,5,5,5) == true);
+    cerr << "#open boliche" << endl;
+    cerr << (diametro_caixa(3,3,2,5) == false);
+    cerr << (diametro_caixa(5,5,5,5) == true);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

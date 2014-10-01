@@ -26,21 +26,21 @@ using namespace std;
 
 string colisaoString(string one, string two)
 {
-	return "";
+    return "";
 }
 
 //@end
 
 void tests()
 {
-    cout << "#open colisaoString" << endl;
-    cout <<(colisaoString("olho", "mel") == "olhomel");
-    cout <<(colisaoString("minhoca", "arvore") == "minhocrvore");
-    cout <<(colisaoString("mel", "lemax") == "ax");
+    cerr << "#open colisaoString" << endl;
+    cerr <<(colisaoString("olho", "mel") == "olhomel");
+    cerr <<(colisaoString("minhoca", "arvore") == "minhocrvore");
+    cerr <<(colisaoString("mel", "lemax") == "ax");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

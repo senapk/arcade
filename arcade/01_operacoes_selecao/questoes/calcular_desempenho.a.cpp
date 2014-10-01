@@ -23,14 +23,14 @@ void tests() {
     auto feq = [](float A, float B)->bool{
         return ((max(A,B)-min(A,B)) < 0.01);
     };
-    cout << ("#open  calcular_desempenho");
-    cout << (feq(calcular_desempenho(100, 60, 10), 10.0));
-    cout << (feq(calcular_desempenho(100, 30, 10), 5.0));
+    cerr << ("#open  calcular_desempenho");
+    cerr << (feq(calcular_desempenho(100, 60, 10), 10.0));
+    cerr << (feq(calcular_desempenho(100, 30, 10), 5.0));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

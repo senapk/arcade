@@ -48,17 +48,17 @@ int tacografo(int n, int tempo[], int velocidade[]){
 //@end
 
 void tests(){
-    cout << "#open tacografo PRATA VETOR FOR" << endl;
+    cerr << "#open tacografo PRATA VETOR FOR" << endl;
     int t1[5] = {10,55,75};
     int v1[5] = {0,12,120};
     int t2[11] = {45,46,7,95,12,78,10,52,13,1};
     int v2[11] = {46,101,2,104,107,29,26,86,79,107};
-    cout << (tacografo(3, t1, v1) == 9660);
-    cout << (tacografo(10, t2, v2) == 26022);
+    cerr << (tacografo(3, t1, v1) == 9660);
+    cerr << (tacografo(10, t2, v2) == 26022);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

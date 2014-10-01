@@ -524,7 +524,7 @@ class Motor{
     template <typename T>
     Motor& operator<<(const T& x)
     {
-        std::cout << x;
+        //std::cout << x;
         return *this;
     }
 
@@ -678,14 +678,14 @@ class Motor{
             tester.summary();
             return *this;
         }
-        cout << ss.str();
+        //cout << ss.str();
         return *this;
     }
 };
 
 static Motor motor;
 
-#define cout motor
+#define cerr motor
 
 #endif //STATIC_H
 

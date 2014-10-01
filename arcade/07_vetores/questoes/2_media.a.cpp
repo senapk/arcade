@@ -26,19 +26,19 @@ float media(vector<float> vet) {
 auto feq = [](float a, float b){return (max(a,b) - min(a, b) < 0.1);};
 void tests(){
 
-    cout << "#open media BRONZE ";
+    cerr << "#open media BRONZE ";
     vector<float> v1 = {1.0};
     vector<float> v2 = {1.0, 2.0, 3.0};
     vector<float> v3 = {2.0, 2.0, 2.0, 2.0};
 
-    cout << (feq(media(v1), 1.0));
-    cout << (feq(media(v2), 2.0));
-    cout << (feq(media(v3), 2.0));
+    cerr << (feq(media(v1), 1.0));
+    cerr << (feq(media(v2), 2.0));
+    cerr << (feq(media(v3), 2.0));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

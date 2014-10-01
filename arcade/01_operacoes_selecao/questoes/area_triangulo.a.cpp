@@ -22,14 +22,14 @@ float area_triangulo(float a, float b, float c){
 //@tests
 auto feq = [](float A, float B)->bool{return (fabs(A - B) < 0.01);};
 void tests(){
-    cout << "#open area_triangulo" << endl;
-    cout << (feq(area_triangulo(3.4, 4.5, 5.1), 7.51));
-    cout << (feq(area_triangulo(6.4, 4.5, 5.1), 11.39)) << endl;
+    cerr << "#open area_triangulo" << endl;
+    cerr << (feq(area_triangulo(3.4, 4.5, 5.1), 7.51));
+    cerr << (feq(area_triangulo(6.4, 4.5, 5.1), 11.39)) << endl;
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

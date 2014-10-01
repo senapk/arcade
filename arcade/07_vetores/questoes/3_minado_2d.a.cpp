@@ -30,19 +30,19 @@ vector<int> minado(vector<int> vet){
 //@end
 
 void tests(){
-    cout << "#open minado PRATA VECTOR FOR" << endl;
+    cerr << "#open minado PRATA VECTOR FOR" << endl;
 // [0 1 0 0 0 1 1 1 0] -> minas
 // [1 1 1 0 1 2 3 2 1] -> proximidade
-    cout << (minado({0, 1, 0, 0, 0, 1, 1, 1, 0}) ==
+    cerr << (minado({0, 1, 0, 0, 0, 1, 1, 1, 0}) ==
         vector<int>({1, 1, 1, 0, 1, 2, 3, 2, 1}));
-    cout << (minado({0, 0, 1, 1, 0, 1}) ==
+    cerr << (minado({0, 0, 1, 1, 0, 1}) ==
         vector<int>({0, 1, 2, 2, 2, 1}));
-    cout << (minado({0, 0, 1, 1, 1, 0}) ==
+    cerr << (minado({0, 0, 1, 1, 1, 0}) ==
             vector<int>({0, 1, 2, 3, 2, 1}));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

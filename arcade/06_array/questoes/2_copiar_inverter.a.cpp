@@ -25,7 +25,7 @@ void inverter(int v1[], int v2[], int tam) {
 //@end
 
 void tests(){
-    cout << "#open copiar_inverter ";
+    cerr << "#open copiar_inverter ";
 	int a1[] = {1};
 	int b1[1];
 
@@ -39,19 +39,19 @@ void tests(){
 	copiar(a2, b2, 3);
 	copiar(a3, b3, 4);
 
-	cout << (b1[0] == 1);
-	cout << (b2[0] == 1);
-	cout << (b2[1] == 2);
-	cout << (b2[2] == 3);
-	cout << (b3[0] == 0);
-	cout << (b3[1] == -1);
-	cout << (b3[2] == 0);
-	cout << (b3[3] == 2);
+	cerr << (b1[0] == 1);
+	cerr << (b2[0] == 1);
+	cerr << (b2[1] == 2);
+	cerr << (b2[2] == 3);
+	cerr << (b3[0] == 0);
+	cerr << (b3[1] == -1);
+	cerr << (b3[2] == 0);
+	cerr << (b3[3] == 2);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

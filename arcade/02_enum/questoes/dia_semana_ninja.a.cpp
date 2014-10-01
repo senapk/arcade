@@ -25,14 +25,14 @@ DiaDaSemana calcular_dia_da_semana(int dia, int mes, int ano) {
 //@end
 
 void tests() {
-    cout <<  ("#open calcular_dia_da_semana PRATA IF ENUM");
-    cout <<  (calcular_dia_da_semana(17, 06, 1996) == SEG);
-    cout <<  (calcular_dia_da_semana(17, 07, 1986) == QUI);
-    cout <<  (calcular_dia_da_semana(28, 02, 2004) == SAB);
+    cerr <<  ("#open calcular_dia_da_semana PRATA IF ENUM");
+    cerr <<  (calcular_dia_da_semana(17, 06, 1996) == SEG);
+    cerr <<  (calcular_dia_da_semana(17, 07, 1986) == QUI);
+    cerr <<  (calcular_dia_da_semana(28, 02, 2004) == SAB);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

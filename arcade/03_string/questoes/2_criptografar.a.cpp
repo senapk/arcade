@@ -15,22 +15,22 @@ using namespace std;
 //invertendo a frase.
 //@return: retorna uma string;
 string criptografar (string nome){
-	return "abc";
+    return "abc";
 }
 
 //@end
 
 void tests() {
-	cout << ("#open criptografar") << endl;
-	cout << ("#set PRATA IF FOR STRING") << endl;
-	string a1 = "sua casa";
-	cout << (criptografar(a1) == "a#a# au#\0");
-	string a2 = "casa nova";
-    cout << (criptografar(a2) == "a#o# a#a#\0");
+    cerr << ("#open criptografar") << endl;
+    cerr << ("#set PRATA IF FOR STRING") << endl;
+    string a1 = "sua casa";
+    cerr << (criptografar(a1) == "a#a# au#\0");
+    string a2 = "casa nova";
+    cerr << (criptografar(a2) == "a#o# a#a#\0");
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

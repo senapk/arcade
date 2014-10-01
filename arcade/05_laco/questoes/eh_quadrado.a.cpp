@@ -23,19 +23,19 @@ bool eh_quadrado_perfeito(int num){
 
 //@tests
 void tests() {
-	cout << ("#open distancia_pontos") << endl;
-	cout << ("#set BRONZE IF FOR") << endl;
-	cout << (eh_quadrado_perfeito(0) == false);
-    cout << (eh_quadrado_perfeito(1) == true);
-    cout << (eh_quadrado_perfeito(2) == false);
-    cout << (eh_quadrado_perfeito(3) == false);
-    cout << (eh_quadrado_perfeito(140) == false);
-    cout << (eh_quadrado_perfeito(6084) == true);
+	cerr << ("#open distancia_pontos") << endl;
+	cerr << ("#set BRONZE IF FOR") << endl;
+	cerr << (eh_quadrado_perfeito(0) == false);
+    cerr << (eh_quadrado_perfeito(1) == true);
+    cerr << (eh_quadrado_perfeito(2) == false);
+    cerr << (eh_quadrado_perfeito(3) == false);
+    cerr << (eh_quadrado_perfeito(140) == false);
+    cerr << (eh_quadrado_perfeito(6084) == true);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

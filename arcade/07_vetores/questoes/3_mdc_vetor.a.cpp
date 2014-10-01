@@ -28,17 +28,17 @@ int mdc(vector<int> vet){
 //@end
 
 void tests(){
-    cout << "#open mdc_arrays BRONZE IF FOR" << endl;
-    cout << (mdc({2, 4}) == 2);
-    cout << (mdc({3, 5}) == 1);
-    cout << (mdc({15, 21}) == 3);
-    cout << (mdc({15, 45}) == 15);
-    cout << (mdc({15, 45, 10}) == 5);
-    cout << (mdc({15, 45, 150}) == 15);
+    cerr << "#open mdc_arrays BRONZE IF FOR" << endl;
+    cerr << (mdc({2, 4}) == 2);
+    cerr << (mdc({3, 5}) == 1);
+    cerr << (mdc({15, 21}) == 3);
+    cerr << (mdc({15, 45}) == 15);
+    cerr << (mdc({15, 45, 10}) == 5);
+    cerr << (mdc({15, 45, 150}) == 15);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

@@ -27,15 +27,15 @@ void tests() {
     float v2[] = {1.56, 0.55, 2.00, 1.90, 1.91, 1.74};
     float v3[] = {1.80, 0.95, 1.89, 2.00, 2.01, 2.22};
 
-    cout << ("#open maior_modelo PRATA IF VETOR");
-    cout << (feq(maior_modelo(v1 ,6), 2.01));
-    cout << (feq(maior_modelo(v2 ,6), 2.00));
-    cout << (feq(maior_modelo(v3 ,6), 2.22));
+    cerr << ("#open maior_modelo PRATA IF VETOR");
+    cerr << (feq(maior_modelo(v1 ,6), 2.01));
+    cerr << (feq(maior_modelo(v2 ,6), 2.00));
+    cerr << (feq(maior_modelo(v3 ,6), 2.22));
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips

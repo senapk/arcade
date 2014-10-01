@@ -26,22 +26,22 @@ using namespace std;
 
 bool eh_anagrama(string A, string B)
 {
-	return false;
+    return false;
 }
 
 //@end
 
 void tests()
 {
-    cout << "#open eh_anagrama" << endl;
-    cout << "#set OURO IF STRING  FOR";
-	cout << (eh_anagrama("aaabtt", "batata") == true);
-    cout << (eh_anagrama("espinafre", "espinafri") == false);
-    cout << (eh_anagrama("pegasus", "peg") == false);
+    cerr << "#open eh_anagrama" << endl;
+    cerr << "#set OURO IF STRING  FOR";
+    cerr << (eh_anagrama("aaabtt", "batata") == true);
+    cerr << (eh_anagrama("espinafre", "espinafri") == false);
+    cerr << (eh_anagrama("pegasus", "peg") == false);
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }

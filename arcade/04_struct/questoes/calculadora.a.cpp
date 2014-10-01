@@ -43,42 +43,42 @@ Result calcular(Param param){
 //@tests
 auto feq = [](float A, float B)->bool{return (fabs(A - B) < 0.01);};
 void tests(){
-    cout << "#open calcular BRONZE IF STRUCT" << endl;
+    cerr << "#open calcular BRONZE IF STRUCT" << endl;
     {
         Result res{20, true};
         Result resA = calcular(Param{10,10,'+'});
-        cout << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
+        cerr << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
     }
     {
         Result res{100, true};
         Result resA = calcular(Param{10,10,'*'});
-        cout << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
+        cerr << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
     }
     {
         Result res{0.0, true};
         Result resA = calcular(Param{1,1,'-'});
-        cout << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
+        cerr << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
     }
     {
         Result res{0.0, false};
         Result resA = calcular(Param{1,0,'/'});
-        cout << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
+        cerr << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
     }
     {
         Result res{0.0, false};
         Result resA = calcular(Param{10,21,'a'});
-        cout << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
+        cerr << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
     }
     {
         Result res{-15, true};
         Result resA = calcular(Param{-10,5,'-'});
-        cout << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
+        cerr << ( (feq(res.value, resA.value) && res.sucesso == resA.sucesso) );
     }
 }
 
 int main(){
     tests();
-    cout << endl << "#end";
+    cerr << endl << "#end";
     return(0);
 }
 //@tips
