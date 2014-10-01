@@ -23,16 +23,16 @@ float arredondamento(float nota){
 //@tests
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 void tests() {
-    cerr << ("#open arredondamento") << endl;
-    cerr << ("#set PRATA IF") << endl;
-    cerr << (feq(arredondamento(2.30), 2.50));
-    cerr << (feq(arredondamento(1.00), 1.00));
-    cerr << (feq(arredondamento(7.24), 7.00));
+    cout << ("#open arredondamento") << endl;
+    cout << ("#set PRATA IF") << endl;
+    cout << (feq(arredondamento(2.30), 2.50));
+    cout << (feq(arredondamento(1.00), 1.00));
+    cout << (feq(arredondamento(7.24), 7.00));
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

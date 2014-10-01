@@ -27,17 +27,17 @@ int nao_primo_menos_primo(int num)
 
 //@tests
 void tests() {
-	cerr << "#open nao_primo_menos_primo PRATA IF FOR" << endl;
-    cerr << (nao_primo_menos_primo(0) == 0);
-    cerr << (nao_primo_menos_primo(1) == 1);
-    cerr << (nao_primo_menos_primo(4) == 0);
-    cerr << (nao_primo_menos_primo(3) == -4);
+	cout << "#open nao_primo_menos_primo PRATA IF FOR" << endl;
+    cout << (nao_primo_menos_primo(0) == 0);
+    cout << (nao_primo_menos_primo(1) == 1);
+    cout << (nao_primo_menos_primo(4) == 0);
+    cout << (nao_primo_menos_primo(3) == -4);
 
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

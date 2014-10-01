@@ -22,15 +22,15 @@ Ordenacao ver_ordem(int A, int B, int C){
 //@end
 
 void tests(){
-    cerr << "#open ver_ordem BRONZE IF ENUM" << endl;
-    cerr << (ver_ordem(1, 3, 5) == Crescente);
-    cerr << (ver_ordem(1, 3, 2) == SemOrdem);
-    cerr << (ver_ordem(4, 3, 2) == Decrescente);
+    cout << "#open ver_ordem BRONZE IF ENUM" << endl;
+    cout << (ver_ordem(1, 3, 5) == Crescente);
+    cout << (ver_ordem(1, 3, 2) == SemOrdem);
+    cout << (ver_ordem(4, 3, 2) == Decrescente);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

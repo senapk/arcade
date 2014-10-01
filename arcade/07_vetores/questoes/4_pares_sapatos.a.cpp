@@ -30,24 +30,24 @@ int procurar_pares(vector<Sapato> sapatos){
 
 void tests ()
 {
-    cerr << "#open pares_sapatos OURO IF FOR VECTOR STRUCT ";
+    cout << "#open pares_sapatos OURO IF FOR VECTOR STRUCT ";
     vector<Sapato> loja = {{38,'D'}, {39, 'E'}, {40, 'D'}, {39, 'E'}, {40, 'E'},
                            {38,'E'}, {39, 'D'}, {40, 'D'}, {39, 'E'}, {40, 'E'}};
     //saida esperada
     //38d 38e 39e 39d 40d 40e 40d 40e
     //4 pares
-    cerr << (procurar_pares(loja) == 4);
+    cout << (procurar_pares(loja) == 4);
 
     vector<Sapato> loja2 = {{38,'D'}, {39, 'E'}, {38, 'E'}};
     //saida esperada
     //38d 38e
     //1 pares
-    cerr << (procurar_pares(loja2) == 1);
+    cout << (procurar_pares(loja2) == 1);
 
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

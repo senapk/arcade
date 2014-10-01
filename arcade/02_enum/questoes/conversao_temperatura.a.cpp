@@ -41,15 +41,15 @@ double converter(float valor, Escala escala_entrada, Escala escala_saida){
 auto feq = [](float A, float B)->bool{return (fabs(A - B) < 0.01);};
 
 void tests(){
-    cerr << ("#open conversao_temperatura BRONZE IF ENUM ");
-    cerr << (feq(converter(39.0, CELSIUS, FARENHEIT), 102.20));
-    cerr << (feq(converter(39.0, CELSIUS, KELVIN), 312.00));
-    cerr << (feq(converter(373.0, KELVIN, FARENHEIT), 212.00));
+    cout << ("#open conversao_temperatura BRONZE IF ENUM ");
+    cout << (feq(converter(39.0, CELSIUS, FARENHEIT), 102.20));
+    cout << (feq(converter(39.0, CELSIUS, KELVIN), 312.00));
+    cout << (feq(converter(373.0, KELVIN, FARENHEIT), 212.00));
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

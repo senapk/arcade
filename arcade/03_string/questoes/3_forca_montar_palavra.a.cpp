@@ -35,14 +35,14 @@ string forca_montar_palavra(const string palavra, const string chutes, char hide
 
 void tests()
 {
-    cerr << "#open forca_montar_palavra PRATA FOR IF STRING VETOR" << endl;
-    cerr << (forca_montar_palavra("Abacaxi"       , "axnpqe"     , '-') == "A-a-ax-");
-    cerr << (forca_montar_palavra("extraordinario", "aeioubcdfgh", '*') == "e***ao*di*a*io");
-    cerr << (forca_montar_palavra("Teco-Teco!"    , "tbxyan"     , '_') == "T___-T___!");
+    cout << "#open forca_montar_palavra PRATA FOR IF STRING VETOR" << endl;
+    cout << (forca_montar_palavra("Abacaxi"       , "axnpqe"     , '-') == "A-a-ax-");
+    cout << (forca_montar_palavra("extraordinario", "aeioubcdfgh", '*') == "e***ao*di*a*io");
+    cout << (forca_montar_palavra("Teco-Teco!"    , "tbxyan"     , '_') == "T___-T___!");
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

@@ -33,14 +33,14 @@ string colisaoString(string one, string two)
 
 void tests()
 {
-    cerr << "#open colisaoString" << endl;
-    cerr <<(colisaoString("olho", "mel") == "olhomel");
-    cerr <<(colisaoString("minhoca", "arvore") == "minhocrvore");
-    cerr <<(colisaoString("mel", "lemax") == "ax");
+    cout << "#open colisaoString" << endl;
+    cout <<(colisaoString("olho", "mel") == "olhomel");
+    cout <<(colisaoString("minhoca", "arvore") == "minhocrvore");
+    cout <<(colisaoString("mel", "lemax") == "ax");
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

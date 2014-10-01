@@ -30,24 +30,24 @@ int somatorio_x_y(int x, int y){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cerr << ("#open somatorio_0_a_num") << endl;
-	cerr << ("#set BRONZE FOR") << endl;
-	cerr << (somatorio_0_a_num(10) == 55);
-    cerr << (somatorio_0_a_num(1) == 1);
-    cerr << (somatorio_0_a_num(3) == 6);
-    cerr << (somatorio_0_a_num(5) == 15);
-    cerr << endl;
+	cout << ("#open somatorio_0_a_num") << endl;
+	cout << ("#set BRONZE FOR") << endl;
+	cout << (somatorio_0_a_num(10) == 55);
+    cout << (somatorio_0_a_num(1) == 1);
+    cout << (somatorio_0_a_num(3) == 6);
+    cout << (somatorio_0_a_num(5) == 15);
+    cout << endl;
 
-    cerr << "#open somatorio_x_y BRONZE FOR" << endl;
-    cerr << (somatorio_x_y(9, 10) == 19);
-    cerr << (somatorio_x_y(1, 3) == 6);
-    cerr << (somatorio_x_y(4, 7) == 22);
+    cout << "#open somatorio_x_y BRONZE FOR" << endl;
+    cout << (somatorio_x_y(9, 10) == 19);
+    cout << (somatorio_x_y(1, 3) == 6);
+    cout << (somatorio_x_y(4, 7) == 22);
 
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

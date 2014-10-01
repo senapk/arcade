@@ -20,15 +20,15 @@ bool esta_contido(vector<int> maior, vector<int> menor){
 //@end
 
 void tests() {
-    cerr << "#open esta_contido BRONZE IF FOR" << endl;
-    cerr << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 5}) == true);
-    cerr << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 6}) == false);
-    cerr << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 5, 4, 2, 0}) == false);
+    cout << "#open esta_contido BRONZE IF FOR" << endl;
+    cout << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 5}) == true);
+    cout << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 6}) == false);
+    cout << (esta_contido({1, 2, 3, 4, 5}, {1, 3, 5, 4, 2, 0}) == false);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

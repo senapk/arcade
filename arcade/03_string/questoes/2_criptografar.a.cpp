@@ -21,16 +21,16 @@ string criptografar (string nome){
 //@end
 
 void tests() {
-	cerr << ("#open criptografar") << endl;
-	cerr << ("#set PRATA IF FOR STRING") << endl;
+	cout << ("#open criptografar") << endl;
+	cout << ("#set PRATA IF FOR STRING") << endl;
 	string a1 = "sua casa";
-	cerr << (criptografar(a1) == "a#a# au#\0");
+	cout << (criptografar(a1) == "a#a# au#\0");
 	string a2 = "casa nova";
-    cerr << (criptografar(a2) == "a#o# a#a#\0");
+    cout << (criptografar(a2) == "a#o# a#a#\0");
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

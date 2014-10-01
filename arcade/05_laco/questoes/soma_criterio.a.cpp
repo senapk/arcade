@@ -24,15 +24,15 @@ int soma_divisiveis(int x){
 
 //@tests
 void tests() {
-    cerr << "#open soma_divisiveis" << endl;
-    cerr << (soma_divisiveis(3) == 3);
-    cerr << (soma_divisiveis(10) == 18);
-    cerr << (soma_divisiveis(20) == 63);
+    cout << "#open soma_divisiveis" << endl;
+    cout << (soma_divisiveis(3) == 3);
+    cout << (soma_divisiveis(10) == 18);
+    cout << (soma_divisiveis(20) == 63);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

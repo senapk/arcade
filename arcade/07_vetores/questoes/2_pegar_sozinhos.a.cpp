@@ -29,23 +29,23 @@ vector<int> pegar_sozinhos(vector<int> vet){
 
 void tests ()
 {
-    cerr << "#open sozinho PRATA IF FOR VECTOR ";
+    cout << "#open sozinho PRATA IF FOR VECTOR ";
     vector<int> in, out;
     in = {1, 1};
     out = {};
-    cerr << (pegar_sozinhos(in) == out) << endl;
+    cout << (pegar_sozinhos(in) == out) << endl;
 
     in = {2, 1, 1};
     out = {2};
-    cerr << (pegar_sozinhos(in) == out) << endl;
+    cout << (pegar_sozinhos(in) == out) << endl;
 
     in = {2, 3, 1, 2, 5, 7, 2};
     out = {1, 3, 5, 7};
-    cerr << (pegar_sozinhos(in) == out) << endl;
+    cout << (pegar_sozinhos(in) == out) << endl;
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

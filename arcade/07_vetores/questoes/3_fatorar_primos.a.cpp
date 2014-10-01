@@ -36,15 +36,15 @@ vector<int> fatorar_primos(int num){
 //@end
 
 void tests(){
-    cerr << ("#open fatorar_primos ");
-    cerr << (fatorar_primos(2) == vector<int>({2}));
-    cerr << (fatorar_primos(8) == vector<int>({2, 2, 2}));
-    cerr << (fatorar_primos(60) == vector<int>({2, 2, 3, 5}));
-    cerr << (fatorar_primos(420) == vector<int>({2, 2, 3, 5, 7}));
+    cout << ("#open fatorar_primos ");
+    cout << (fatorar_primos(2) == vector<int>({2}));
+    cout << (fatorar_primos(8) == vector<int>({2, 2, 2}));
+    cout << (fatorar_primos(60) == vector<int>({2, 2, 3, 5}));
+    cout << (fatorar_primos(420) == vector<int>({2, 2, 3, 5, 7}));
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

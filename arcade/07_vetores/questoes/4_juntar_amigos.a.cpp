@@ -37,16 +37,16 @@ long juntar_varios(vector<int> vet)
 //@end
 
 void tests(){
-    cerr << ("#open juntar_varios OURO IF FOR VECTOR");
-    cerr << (juntar_varios({1, 0}) == 10);
-    cerr << (juntar_varios({1, 10, 10}) == 11010);
-    cerr << (juntar_varios({25, 37, 50, 9}) == 2537509);
-    cerr << (juntar_varios({12345, 6789, 0}) == 1234567890);
+    cout << ("#open juntar_varios OURO IF FOR VECTOR");
+    cout << (juntar_varios({1, 0}) == 10);
+    cout << (juntar_varios({1, 10, 10}) == 11010);
+    cout << (juntar_varios({25, 37, 50, 9}) == 2537509);
+    cout << (juntar_varios({12345, 6789, 0}) == 1234567890);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

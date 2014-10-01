@@ -28,15 +28,15 @@ string sub_string(string palavra, int inicio, int fim){
 
 //@tests
 void tests(){
-    cerr << "#open sub_string BRONZE IF FOR STRING" << endl;
-    cerr << (sub_string("Pterodactilo", 2, 5)  == "erod");
-    cerr << (sub_string("Power Ranger", 4, 11) == "r Ranger");
-    cerr << (sub_string("Jaspion", 2, 6) == "spion");
+    cout << "#open sub_string BRONZE IF FOR STRING" << endl;
+    cout << (sub_string("Pterodactilo", 2, 5)  == "erod");
+    cout << (sub_string("Power Ranger", 4, 11) == "r Ranger");
+    cout << (sub_string("Jaspion", 2, 6) == "spion");
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

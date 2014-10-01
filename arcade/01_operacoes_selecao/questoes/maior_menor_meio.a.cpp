@@ -33,25 +33,25 @@ bool igual(Result a, Result b){
     return false;
 }
 void tests(){
-    cerr << "#open maior_menor_meio BRONZE IF STRUCT" << endl;
+    cout << "#open maior_menor_meio BRONZE IF STRUCT" << endl;
 
     {
         Result res{3,2,1};
-        cerr << (igual(res, maior_menor_meio(2,1,3))) << endl;
+        cout << (igual(res, maior_menor_meio(2,1,3))) << endl;
     }
     {
         Result res{2,1,0};
-        cerr << igual(res, maior_menor_meio(0,1,2)) << endl;
+        cout << igual(res, maior_menor_meio(0,1,2)) << endl;
     }
     {
         Result res{10,9,2};
-        cerr << igual(res, maior_menor_meio(10,9,2)) << endl;
+        cout << igual(res, maior_menor_meio(10,9,2)) << endl;
     }
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

@@ -28,18 +28,18 @@ vector<int> pegar_exemplares(vector<int> vet){
 
 void tests ()
 {
-    cerr << "#open pegar_exemplares OURO IF FOR ";
+    cout << "#open pegar_exemplares OURO IF FOR ";
     vector<int> in, out;
-    cerr << (pegar_exemplares({1, 1}) == vector<int>({1}));
-    cerr << (pegar_exemplares({1, 0, 1}) == vector<int>({0, 1}));
-    cerr << (pegar_exemplares({1, 1, 2, 0}) == vector<int>({0, 1, 2}));
+    cout << (pegar_exemplares({1, 1}) == vector<int>({1}));
+    cout << (pegar_exemplares({1, 0, 1}) == vector<int>({0, 1}));
+    cout << (pegar_exemplares({1, 1, 2, 0}) == vector<int>({0, 1, 2}));
     in = {1, 3, 1, 2, 5, 7, 2};
     out = {1, 2, 3, 5, 7};
-    cerr << (pegar_exemplares(in) == out);
+    cout << (pegar_exemplares(in) == out);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

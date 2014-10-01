@@ -23,16 +23,16 @@ bool esta_trabalhando(Dia dia, int hora){
 
 //@tests
 void tests(){
-    cerr << "#open esta_trabalhando BRONZE IF ENUM" << endl;
-    cerr << (esta_trabalhando(DOM, 13) == false);
-    cerr << (esta_trabalhando(SAB, 11) == true);
-    cerr << (esta_trabalhando(SEG, 12) == false);
-    cerr << (esta_trabalhando(TER, 5) == false);
-    cerr << (esta_trabalhando(QUA, 15) == true);
+    cout << "#open esta_trabalhando BRONZE IF ENUM" << endl;
+    cout << (esta_trabalhando(DOM, 13) == false);
+    cout << (esta_trabalhando(SAB, 11) == true);
+    cout << (esta_trabalhando(SEG, 12) == false);
+    cout << (esta_trabalhando(TER, 5) == false);
+    cout << (esta_trabalhando(QUA, 15) == true);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

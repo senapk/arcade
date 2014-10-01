@@ -35,17 +35,17 @@ bool igual(Tempo one, Tempo two){
 }
 
 void tests(){
-    cerr << "#open diferenca_tempo" << endl;
-    cerr << "#set PRATA IF STRUCT" << endl;
-    cerr << (igual(diferenca(Tempo{0, 0, 0}, Tempo{0, 0, 1}), Tempo{0, 0, 1}));
-    cerr << (igual(diferenca(Tempo{1, 0, 0}, Tempo{2, 3, 1}), Tempo{1, 3, 1}));
-    cerr << (igual(diferenca(Tempo{1, 50, 0}, Tempo{2, 0, 0}), Tempo{0, 10, 0}));
+    cout << "#open diferenca_tempo" << endl;
+    cout << "#set PRATA IF STRUCT" << endl;
+    cout << (igual(diferenca(Tempo{0, 0, 0}, Tempo{0, 0, 1}), Tempo{0, 0, 1}));
+    cout << (igual(diferenca(Tempo{1, 0, 0}, Tempo{2, 3, 1}), Tempo{1, 3, 1}));
+    cout << (igual(diferenca(Tempo{1, 50, 0}, Tempo{2, 0, 0}), Tempo{0, 10, 0}));
 
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

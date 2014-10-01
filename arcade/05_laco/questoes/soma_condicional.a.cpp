@@ -35,28 +35,28 @@ int contar_div23x(int x, int y, int z){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cerr << ("#open soma_condicional") << endl;
-	cerr << ("#set PRATA FOR IF") << endl;
-	cerr << (impares_3_500() == 83);
-    cerr << endl;
+	cout << ("#open soma_condicional") << endl;
+	cout << ("#set PRATA FOR IF") << endl;
+	cout << (impares_3_500() == 83);
+    cout << endl;
 
-    cerr << ("#open contar_div3") << endl;
-    cerr << ("#set PRATA FOR IF") << endl;
-    cerr << (contar_div3(10,20) == 3);
-    cerr << (contar_div3(100,103) == 1);
-    cerr << endl;
+    cout << ("#open contar_div3") << endl;
+    cout << ("#set PRATA FOR IF") << endl;
+    cout << (contar_div3(10,20) == 3);
+    cout << (contar_div3(100,103) == 1);
+    cout << endl;
 
-    cerr << ("#open contar_div23x") << endl;
-    cerr << ("#set PRATA FOR IF") << endl;
-    cerr << (contar_div23x(1,20,30) == 2);
-    cerr << (contar_div23x(4,10,12) == 1);
+    cout << ("#open contar_div23x") << endl;
+    cout << ("#set PRATA FOR IF") << endl;
+    cout << (contar_div23x(1,20,30) == 2);
+    cout << (contar_div23x(4,10,12) == 1);
 
 
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

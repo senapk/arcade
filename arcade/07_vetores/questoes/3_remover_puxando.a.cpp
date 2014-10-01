@@ -32,24 +32,24 @@ bool remover_puxando(vector<int>& vet, int elem) {
 
 //@tests
 void tests(){
-    cerr <<("#open remover_puxando");
+    cout <<("#open remover_puxando");
 
     {
         vector<int> vet {1, 2, 3};
         vector<int> out {1, 3};
         remover_puxando(vet, 2);
-        cerr << (vet == out);
+        cout << (vet == out);
     }
     {
         vector<int> vet {1, 2, 3, 4, 5, 6, 7, 8};
         vector<int> out {1, 2, 3, 4, 6, 7, 8};
         remover_puxando(vet, 5);
-        cerr << (vet == out);
+        cout << (vet == out);
     }
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

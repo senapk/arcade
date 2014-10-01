@@ -76,26 +76,32 @@ def composer_factory(arquivos, destino):
 
     for path in arquivos:
         arq = open(path)
-        fname = get_lastname(path).replace(".cpp", "")
+        if(path.find(".p.cpp") == -1):
+            print(path + " não tem extensao .p.cpp")
+            continue
+        else:
+            print(path + " ok!")
+
+        fname = get_lastname(path).replace(".p.cpp", "")
         text = arq.read()
         pi = separate(text)
         ID = "\n//@question " + fname + "\n"
 
+        namespace_name = "_" + fname
         # adiciona a linha de chamada do teste dessa questao
-        testes_main += "    " + fname + "::tests();\n"
+        testes_main += "    " + namespace_name + "::tests();\n"
 
         # adiciona apenas os include que nao existem
         includes = add_only_new(includes, pi.includes)
-
-        aluno += namespace_wrap(fname, pi.aluno)
-        prof += namespace_wrap(fname, pi.prof)
-        testes += namespace_wrap(fname, pi.testes.replace('"fname"', '"' + fname + '"'))
-        hides += namespace_wrap(fname, pi.hide.replace('"fname"', '"' + fname + '"'))
+        aluno += namespace_wrap(namespace_name, pi.aluno)
+        prof += namespace_wrap(namespace_name, pi.prof)
+        testes += namespace_wrap(namespace_name, pi.testes.replace('"fname"', '"' + fname + '"'))
+        hides += namespace_wrap(namespace_name, pi.hide.replace('"fname"', '"' + fname + '"'))
 
         if(len(pi.dicas) > 10):
             dicas += ID + pi.dicas
 
-    testes_main += '    cout << "#end" << endl;\n    return 0;\n}\n'
+    testes_main += '    cerr << "#end" << endl;\n    return 0;\n}\n'
 
     # criando pasta e arquivos
     path_destino = destino

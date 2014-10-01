@@ -34,28 +34,28 @@ int somaxyz(int x, int y, int z){
 void tests(){
 
 	//Questão 01
-    cerr << "#open soma4 BRONZE IF FOR" << endl;
-    cerr << (soma4(1) == 20);
-    cerr << (soma4(8) == 52);
-    cerr << endl;
+    cout << "#open soma4 BRONZE IF FOR" << endl;
+    cout << (soma4(1) == 20);
+    cout << (soma4(8) == 52);
+    cout << endl;
 
 	//Questão 02
-    cerr << "#open soma10 BRONZE IF FOR" << endl;
-    cerr << (soma10(0) == 165);
-    cerr << (soma10(3) == 195);
-    cerr << endl;
+    cout << "#open soma10 BRONZE IF FOR" << endl;
+    cout << (soma10(0) == 165);
+    cout << (soma10(3) == 195);
+    cout << endl;
 
 	//Questão 03
-    cerr << "#open somaxyz BRONZE IF FOR" << endl;
-    cerr << (somaxyz(20,3,2) == 72);
-    cerr << (somaxyz(0,1,2) == 2);
-	cerr << endl;
+    cout << "#open somaxyz BRONZE IF FOR" << endl;
+    cout << (somaxyz(20,3,2) == 72);
+    cout << (somaxyz(0,1,2) == 2);
+	cout << endl;
 
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

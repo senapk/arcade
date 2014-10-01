@@ -26,14 +26,14 @@ float mediana(vector<float> vet){
 
 void tests() {
     auto feq = [](float a, float b){return (max(a,b)-min(a,b)<0.1);};
-    cerr << "#open mediana OURO IF FOR" << endl;
-    cerr << (feq(mediana({0, 1, 2}), 1.0));
-    cerr << (feq(mediana({0, 9, 3.2, 1}), 2.1));
+    cout << "#open mediana OURO IF FOR" << endl;
+    cout << (feq(mediana({0, 1, 2}), 1.0));
+    cout << (feq(mediana({0, 9, 3.2, 1}), 2.1));
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

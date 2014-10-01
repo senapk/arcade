@@ -19,14 +19,14 @@ int soma_maior_menor(vector<int> vet){
 
 void tests ()
 {
-    cerr << "#open maior_menor ";
-    cerr << (soma_maior_menor({1, 2, 3, 4, 5}) == 6);
-    cerr << (soma_maior_menor({1, 2, 0, 4, 5}) == 5);
-    cerr << (soma_maior_menor({1, 2, 0, 4, 9}) == 9);
+    cout << "#open maior_menor ";
+    cout << (soma_maior_menor({1, 2, 3, 4, 5}) == 6);
+    cout << (soma_maior_menor({1, 2, 0, 4, 5}) == 5);
+    cout << (soma_maior_menor({1, 2, 0, 4, 9}) == 9);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

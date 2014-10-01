@@ -24,13 +24,13 @@ string inverteString(string texto){
 //@end
 
 void tests() {
-    cerr << "#open inverteString" << endl;
-    cerr <<(inverteString("batata") == "atatab");
-    cerr <<(inverteString("batata Frita") == "atirF atatab");
+    cout << "#open inverteString" << endl;
+    cout <<(inverteString("batata") == "atatab");
+    cout <<(inverteString("batata Frita") == "atirF atatab");
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

@@ -28,16 +28,16 @@ int calcular_multa(float vel_max, float vel_carro){
 
 //@tests
 void tests(){
-    cerr << "#open calcular_multa BRONZE IF" << endl;
-    cerr << (calcular_multa(100,120) == 200) << endl;
-    cerr << (calcular_multa(100,110) == 0) << endl;
-    cerr << (calcular_multa(100,111) == 100) << endl;
-    cerr << (calcular_multa(150,90) == 0) << endl;
+    cout << "#open calcular_multa BRONZE IF" << endl;
+    cout << (calcular_multa(100,120) == 200) << endl;
+    cout << (calcular_multa(100,110) == 0) << endl;
+    cout << (calcular_multa(100,111) == 100) << endl;
+    cout << (calcular_multa(150,90) == 0) << endl;
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips

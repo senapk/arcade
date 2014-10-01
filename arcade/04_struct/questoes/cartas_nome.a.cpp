@@ -31,19 +31,19 @@ string gerar_nome(Carta carta){
 //@end
 
 void tests(){
-    cerr << "#open gerar_nome" << endl;
-    cerr << "#set PRATA IF ENUM STRUCT" << endl;
-    cerr << (gerar_nome(Carta{AS, ESPADAS}) == "As de Espadas");
-    cerr << (gerar_nome(Carta{DAMAS, PAUS}) == "Damas de Paus");
-    cerr << (gerar_nome(Carta{REIS, OUROS}) == "Reis de Ouros");
-    cerr << (gerar_nome(Carta{VALETES, COPAS}) == "Valetes de Copas");
-    cerr << (gerar_nome(Carta{SETE, COPAS}) == "7 de Copas");
-    cerr << (gerar_nome(Carta{SETE, COPAS}) == "7 de Copas");
-    cerr << (gerar_nome(Carta{CINCO, COPAS}) == "5 de Copas") << endl;
+    cout << "#open gerar_nome" << endl;
+    cout << "#set PRATA IF ENUM STRUCT" << endl;
+    cout << (gerar_nome(Carta{AS, ESPADAS}) == "As de Espadas");
+    cout << (gerar_nome(Carta{DAMAS, PAUS}) == "Damas de Paus");
+    cout << (gerar_nome(Carta{REIS, OUROS}) == "Reis de Ouros");
+    cout << (gerar_nome(Carta{VALETES, COPAS}) == "Valetes de Copas");
+    cout << (gerar_nome(Carta{SETE, COPAS}) == "7 de Copas");
+    cout << (gerar_nome(Carta{SETE, COPAS}) == "7 de Copas");
+    cout << (gerar_nome(Carta{CINCO, COPAS}) == "5 de Copas") << endl;
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }

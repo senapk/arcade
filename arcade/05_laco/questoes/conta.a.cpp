@@ -50,16 +50,16 @@ int conta(int n){
 
 //@tests
 void tests(){
-    cerr << "#open conta BRONZE IF FOR" << endl;
-    cerr << (conta(101) == 172);
-    cerr << (conta(50) == 67);
-    cerr << (conta(0) == 7);
-    cerr << (conta(20) == 17);
+    cout << "#open conta BRONZE IF FOR" << endl;
+    cout << (conta(101) == 172);
+    cout << (conta(50) == 67);
+    cout << (conta(0) == 7);
+    cout << (conta(20) == 17);
 }
 
 int main(){
     tests();
-    cerr << endl << "#end";
+    cout << endl << "#end";
     return(0);
 }
 //@tips
