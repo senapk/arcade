@@ -35,6 +35,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //O desempenho é distancia / consumo.
 //A distancia percorrida é velocidade vezes tempo em horas
 //O tempo em hora eh tempo em minutos/60

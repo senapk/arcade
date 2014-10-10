@@ -19,11 +19,11 @@ int fatorial(int numero) {
 //@end
 
 void tests() {
-	cerr << ("#open fatorial") << endl;
-	cerr << ("#set PRATA FOR") << endl;
-	cerr << (fatorial(1) == 1);
-	cerr << (fatorial(2) == 2);
-	cerr << (fatorial(3) == 6);
+    cerr << ("#open fatorial") << endl;
+    cerr << ("#set PRATA FOR") << endl;
+    cerr << (fatorial(1) == 1);
+    cerr << (fatorial(2) == 2);
+    cerr << (fatorial(3) == 6);
 }
 
 int main(){
@@ -33,6 +33,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //Lembrando que a ordem não altera o resultado.
 //Exemplo: 5! = 5 * 4 * 3 * 2 * 1 OU 1 * 2 * 3 * 4 * 5 = 120
 //em ordem decrescente até o 1.

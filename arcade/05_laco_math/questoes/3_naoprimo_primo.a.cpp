@@ -15,7 +15,7 @@ using namespace std;
 //@return: retorna um inteiro
 
 bool isPrimo(int n){
-	return true;
+    return true;
 }
 
 int nao_primo_menos_primo(int num)
@@ -27,7 +27,7 @@ int nao_primo_menos_primo(int num)
 
 //@tests
 void tests() {
-	cerr << "#open nao_primo_menos_primo PRATA IF FOR" << endl;
+    cerr << "#open nao_primo_menos_primo PRATA IF FOR" << endl;
     cerr << (nao_primo_menos_primo(0) == 0);
     cerr << (nao_primo_menos_primo(1) == 1);
     cerr << (nao_primo_menos_primo(4) == 0);
@@ -42,6 +42,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //com outra variável auxiliar depois retorne a diferença entre as duas.
 //Use a função citada a cima em um laço e se o número for primo some ele em uma variável auxiliar, se não some
 //tips: Faça uma função auxiliar que recebe um número por parâmetro e retorna se ele é primo ou não.

@@ -36,6 +36,7 @@ int main(){
 //As linhas estão invertidas para você não ler sem querer :)
 
 
+
 //Cuidado para colocar os parenteses certinhos.
 //http://www.mundoeducacao.com/matematica/formula-heron.htm
 //Se você não foi capaz de achar no google, tente esse link

@@ -6,26 +6,26 @@
 
 #include <motor.h>
 #include <iostream>
-
 using namespace std;
 //@begin
 
-//Diga se um numero e primo ou não.
-//@return: retorna um bool.
-bool eh_primo(int numero) {
-	return true;
+// Faça uma função que retorne o módulo de um número.
+// Se o numero for negativo, inverter deixando positivo e retornar.
+// Se for positivo, retornar o valor positivo.
+//
+//@return: bool
+
+int modulo(int num){
+    return 0;
 }
 
 //@end
 
 //@tests
 void tests() {
-	cerr << ("#open eh_primo") << endl;
-	cerr << ("#set PRATA IF FOR") << endl;
-	cerr << (eh_primo(5) == true);
-	cerr << (eh_primo(3) == true);
-	cerr << (eh_primo(0) == false);
-	cerr << (eh_primo(2) == true);
+    cerr << "#open modulo BRONZE" << endl;
+    cerr << (modulo(-5) == 5);
+    cerr << (modulo(3) == 3);
 }
 
 int main(){
@@ -35,6 +35,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
-//então se as demais divisões forem exatas, ele não será primo.
-//Um número só é primo quando é divisível por 1 e por ele msm,
+
+//Para deixar um número negativo em módulo basta multiplicar o mesmo por -1.
+
 

@@ -33,6 +33,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //contido em v2.
 //Dica: se todos os elementos de v1 existirem em v2, v1 só pode estar
 

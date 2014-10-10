@@ -17,7 +17,7 @@ using namespace std;
 //
 
 int soma_divisiveis(int x){
-	return 0;
+    return 0;
 }
 
 //@end
@@ -37,6 +37,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //auxiliar para guardar a soma.
 //numéro é divisível por outro. Use uma variável
 //Use o operador de módulo (%) para saber se um

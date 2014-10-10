@@ -37,6 +37,7 @@ int main(){
 //As linhas estão invertidas para você não ler sem querer :)
 
 
+
 //http://www.mundoeducacao.com/matematica/distancia-entre-dois-pontos.html
 //Para saber mais visite o site:
 

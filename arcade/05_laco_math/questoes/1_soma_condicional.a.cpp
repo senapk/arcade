@@ -35,9 +35,9 @@ int contar_div23x(int x, int y, int z){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cerr << ("#open soma_condicional") << endl;
-	cerr << ("#set PRATA FOR IF") << endl;
-	cerr << (impares_3_500() == 83);
+    cerr << ("#open soma_condicional") << endl;
+    cerr << ("#set PRATA FOR IF") << endl;
+    cerr << (impares_3_500() == 83);
     cerr << endl;
 
     cerr << ("#open contar_div3") << endl;
@@ -61,6 +61,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //Depois retorne essa variável.
 //parâmetros passados.
 //Use uma variável que será usada como contador e incremente ela quando o numero for divisível pelos

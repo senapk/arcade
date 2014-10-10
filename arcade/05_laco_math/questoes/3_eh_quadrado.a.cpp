@@ -16,16 +16,16 @@ using namespace std;
 //(como raiz quadrada, por exemplo), se ele é retorne verdadeiro senão retorne falso.
 //@return: return true ou false.
 bool eh_quadrado_perfeito(int num){
-	return true;
+    return true;
 }
 
 //@end
 
 //@tests
 void tests() {
-	cerr << ("#open distancia_pontos") << endl;
-	cerr << ("#set BRONZE IF FOR") << endl;
-	cerr << (eh_quadrado_perfeito(0) == false);
+    cerr << ("#open distancia_pontos") << endl;
+    cerr << ("#set BRONZE IF FOR") << endl;
+    cerr << (eh_quadrado_perfeito(0) == false);
     cerr << (eh_quadrado_perfeito(1) == true);
     cerr << (eh_quadrado_perfeito(2) == false);
     cerr << (eh_quadrado_perfeito(3) == false);
@@ -40,6 +40,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //http://clubes.obmep.org.br/blog/quadrado-perfeito/
 //Para saber mais sobre os quadrados perfeitos acesse:
 

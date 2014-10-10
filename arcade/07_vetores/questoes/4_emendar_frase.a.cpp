@@ -4,6 +4,7 @@
 // motor.h: https://github.com/senapk/arcade
 /////////////////////////////////////////////
 
+//@autor Bruno Barreto;
 #include <iostream>
 #include <string>
 #include <vector>

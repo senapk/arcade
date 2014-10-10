@@ -39,6 +39,7 @@ int main(){
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
 
+
 //Se sobrarem dois você faz a media.
 //ate sobrarem 2 ou menos.
 //Ou vai a cada rodada removendo o menor e o maior

@@ -30,9 +30,9 @@ int somatorio_x_y(int x, int y){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cerr << ("#open somatorio_0_a_num") << endl;
-	cerr << ("#set BRONZE FOR") << endl;
-	cerr << (somatorio_0_a_num(10) == 55);
+    cerr << ("#open somatorio_0_a_num") << endl;
+    cerr << ("#set BRONZE FOR") << endl;
+    cerr << (somatorio_0_a_num(10) == 55);
     cerr << (somatorio_0_a_num(1) == 1);
     cerr << (somatorio_0_a_num(3) == 6);
     cerr << (somatorio_0_a_num(5) == 15);
@@ -52,5 +52,6 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //Use uma variável auxiliar que guarda a soma de cada número interado em um laço.
 

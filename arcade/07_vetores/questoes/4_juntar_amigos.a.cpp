@@ -51,6 +51,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //Observe que juntar {10, 4} é 104. E juntar {1, 10} é 110.
 //Aprenda a concatenar dois números e use um laço para concatenar todo o vetor.
 

@@ -14,11 +14,11 @@ using namespace std;
 //@return: retorna um valor inteiro.
 //Função isPrimo serve como uma função auxiliar...
 bool isPrimo(int x){
-	return true;
+    return true;
 }
 
 int primeiros_primos(int x, int y){
-	return 0;
+    return 0;
 }
 
 //@end
@@ -27,8 +27,8 @@ int primeiros_primos(int x, int y){
 auto feq = [](float A, float B)->bool{return ((max(A,B)-min(A,B)) < 0.01);};
 
 void tests() {
-	cerr << ("#open soma_primos") << endl;
-	cerr << ("#set BRONZE IF FOR") << endl;
+    cerr << ("#open soma_primos") << endl;
+    cerr << ("#set BRONZE IF FOR") << endl;
     cerr << (primeiros_primos(1, 5) == 3);
     cerr << (primeiros_primos(6, 12) == 2);
     cerr << (primeiros_primos(11, 18) == 2);
@@ -41,6 +41,7 @@ int main(){
 }
 //@tips
 //As linhas estão invertidas para você não ler sem querer :)
+
 //http://www.somatematica.com.br/fundam/primos.php
 //Para saber mais sobre os números primos acesse:
 //Se o numero for primo incremente um contador e no final retorne o mesmo.
