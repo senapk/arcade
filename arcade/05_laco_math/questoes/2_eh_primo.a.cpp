@@ -33,9 +33,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//então se as demais divisões forem exatas, ele não será primo.
 //Um número só é primo quando é divisível por 1 e por ele msm,
-
+//então se as demais divisões forem exatas, ele não será primo.

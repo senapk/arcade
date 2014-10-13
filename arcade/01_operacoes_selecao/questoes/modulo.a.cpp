@@ -33,9 +33,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
 //Para deixar um número negativo em módulo basta multiplicar o mesmo por -1.
-
-

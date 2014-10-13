@@ -218,22 +218,23 @@ def gen_aluno(path_master):
         aluno_path = fname + ".a.cpp"
         # aluno_path = add_prefix(fname + ".cpp", "a.")
 
-        # abrindo arquivo do aluno
-        aluno_cpp = open(aluno_path, 'w')
-        aluno_cpp.write(header)
-        aluno_cpp.write('\n' + pi.includes)
-        aluno_cpp.write("//@begin")
-        aluno_cpp.write(pi.aluno)
-        aluno_cpp.write("//@end\n")
-
-        aluno_cpp.write('\n' + pi.testes)
-
-        aluno_cpp.write(simple_main)
-
+        # criando texto a ser escrito
+        aluno = ""
+        aluno += header + '\n'
+        aluno += pi.includes
+        aluno += "//@begin"
+        aluno += pi.aluno
+        aluno += "//@end\n\n"
+        aluno += pi.testes
+        aluno += simple_main
         if len(pi.dicas) > 5:
-            dicas = format_tips(pi.dicas, True)
-            aluno_cpp.write(dicas)
+            aluno += pi.dicas
+            #dicas = format_tips(pi.dicas, False)
 
+        # abrindo arquivo do aluno
+
+        aluno_cpp = open(aluno_path, 'w', encoding='utf-8')
+        aluno_cpp.write(aluno)
         aluno_cpp.close()
 
         wait_write(aluno_path)

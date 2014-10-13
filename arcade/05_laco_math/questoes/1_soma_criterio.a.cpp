@@ -35,11 +35,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//auxiliar para guardar a soma.
-//numéro é divisível por outro. Use uma variável
 //Use o operador de módulo (%) para saber se um
-
-
+//numéro é divisível por outro. Use uma variável
+//auxiliar para guardar a soma.

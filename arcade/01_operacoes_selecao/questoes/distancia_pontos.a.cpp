@@ -33,11 +33,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
-
-//http://www.mundoeducacao.com/matematica/distancia-entre-dois-pontos.html
 //Para saber mais visite o site:
+//http://www.mundoeducacao.com/matematica/distancia-entre-dois-pontos.html
+
 

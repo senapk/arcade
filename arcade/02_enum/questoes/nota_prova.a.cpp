@@ -20,14 +20,14 @@ using namespace std;
 enum Categoria { Reprovado, Final, Aprovado, Erro};
 
 Categoria categoria (float nota){
-	return Erro;
+    return Erro;
 }
 //@end
 
 //@tests
 void tests(){
-	cerr << "#open nota_prova BRONZE IF ENUM ";
-	cerr << (categoria(3.0) == Reprovado);
+    cerr << "#open nota_prova BRONZE IF ENUM ";
+    cerr << (categoria(3.0) == Reprovado);
     cerr << (categoria(7.0) == Aprovado);
     cerr << (categoria(6.9) == Final);
 }

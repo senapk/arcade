@@ -36,12 +36,8 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
-//Se sobrarem dois você faz a media.
-//ate sobrarem 2 ou menos.
-//Ou vai a cada rodada removendo o menor e o maior
 //Ou você ordena o vetor na mão e pega os valores do meio.
+//Ou vai a cada rodada removendo o menor e o maior
+//ate sobrarem 2 ou menos.
+//Se sobrarem dois você faz a media.
 

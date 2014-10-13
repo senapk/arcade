@@ -48,14 +48,10 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//numero ao valor que restar depois da remorção.
-//Dica RD: Retire o primeiro numero da esquerda pra direita e some esse
-
-
-//"transforma-lo" usando uma "grandeza" e soma-lo ao resto que sobrar
 //Dica RE: Você só precisa retirar o primeira numero da direita para a esquerda,
+//"transforma-lo" usando uma "grandeza" e soma-lo ao resto que sobrar
 
 
+//Dica RD: Retire o primeiro numero da esquerda pra direita e some esse
+//numero ao valor que restar depois da remorção.

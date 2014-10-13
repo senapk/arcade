@@ -62,18 +62,14 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//2 até a penultima linha.
-//mulheres duplicadas, ou faz um laço que começe da linha
-//Ou você soma as culunas integralmente e subtrai as
-
-//duas vezes.
-//coluna estaria correndo os riscos de contar as quinas
-//Se você somasse isso às mulheres da primeira e segunda
-
-//na primeira linha e na ultima linha.
 //Uma abordagem simples é somar as mulheres que estão
+//na primeira linha e na ultima linha.
 
+//Se você somasse isso às mulheres da primeira e segunda
+//coluna estaria correndo os riscos de contar as quinas
+//duas vezes.
 
+//Ou você soma as culunas integralmente e subtrai as
+//mulheres duplicadas, ou faz um laço que começe da linha
+//2 até a penultima linha.

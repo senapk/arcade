@@ -65,18 +65,14 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-
-
-//}
-//                        cont++;
-//                    se o proximo eh mulher
-//                se o proximo existe
-//            para todos os proximos
-//        se eh homem
-//    para todas as pessoas
 //int contar_desconcentrados(vector<string> mat){
+//    para todas as pessoas
+//        se eh homem
+//            para todos os proximos
+//                se o proximo existe
+//                    se o proximo eh mulher
+//                        cont++;
+//}
 
 

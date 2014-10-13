@@ -55,10 +55,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//através do operador ==.
 //A funcao bool operator== tem como objetivo permitir a comparacao de dois vector<Pair>()
-
-
+//através do operador ==.

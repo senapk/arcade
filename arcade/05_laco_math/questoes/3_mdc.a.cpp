@@ -35,11 +35,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//http://www.somatematica.com.br/fundam/mdc.php
-//Para saber mais acesse:
-//talvez sejá preciso vc ir armazenando o que dar pra dividir, caso nenhum que é igual ao menor dar pra dividir.
 //Vai dividindo até encontrar um numero que sejá igual ou menor ao menor dos dois numeros que divide os dois,
-
+//talvez sejá preciso vc ir armazenando o que dar pra dividir, caso nenhum que é igual ao menor dar pra dividir.
+//Para saber mais acesse:
+//http://www.somatematica.com.br/fundam/mdc.php

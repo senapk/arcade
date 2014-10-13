@@ -34,15 +34,11 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-
-
-//nao em espaço.
-//e vai concatenando uma palavra a outra, lembre-se de tratar a ultima palavra, pois ela termina em '\0'
-//quando vc o encontrar, vc acrescenta essa string, no caso uma palavra a uma nova string,
-//você pode criar uma string auxiliar e armazendo nela cada palavra ate encontrar um espaço
 //tips
+//você pode criar uma string auxiliar e armazendo nela cada palavra ate encontrar um espaço
+//quando vc o encontrar, vc acrescenta essa string, no caso uma palavra a uma nova string,
+//e vai concatenando uma palavra a outra, lembre-se de tratar a ultima palavra, pois ela termina em '\0'
+//nao em espaço.
 
 

@@ -34,10 +34,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//Tenha cuidado na hora de colocar o parêntese na divisão.
 //Para calcular a média basta somar as três notas e dividir por 3.
-
-
+//Tenha cuidado na hora de colocar o parêntese na divisão.

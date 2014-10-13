@@ -62,8 +62,4 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
 //Dica: Compare os valores em um laço com n > 10, pois o 10 já é o padrão da franquia.
-

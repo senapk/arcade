@@ -59,10 +59,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//Depois retorne essa variável.
-//parâmetros passados.
 //Use uma variável que será usada como contador e incremente ela quando o numero for divisível pelos
-
+//parâmetros passados.
+//Depois retorne essa variável.

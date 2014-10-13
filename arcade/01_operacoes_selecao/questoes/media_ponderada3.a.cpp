@@ -32,10 +32,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//Cuidado no posicionamento dos parênteses.
-//http://www.brasilescola.com/matematica/media-ponderada.htm
 //A formula da media ponderada pode ser encontrada no seguinte site:
-
+//http://www.brasilescola.com/matematica/media-ponderada.htm
+//Cuidado no posicionamento dos parênteses.

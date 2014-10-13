@@ -35,9 +35,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
 //Na fração, o numerador é constante e o denominador e variante.
 

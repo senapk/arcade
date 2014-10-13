@@ -52,17 +52,14 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//Para converter de farenheit para kelvin basta usar f2c e c2k.
-//}
-//	return valor + 273;
-//float c2k(float valor){
-//Exemplo:
-//c2k -> de celsius para kelvin
-//k2c -> de kelvin para celsius
-//f2c -> converte de farenheit para celsius
-//c2f -> converte de celsius para farenheit
-//e depois utilize-as na função converter.
 //Faça primeiro as questões que convertem valores individuais
-
+//e depois utilize-as na função converter.
+//c2f -> converte de celsius para farenheit
+//f2c -> converte de farenheit para celsius
+//k2c -> de kelvin para celsius
+//c2k -> de celsius para kelvin
+//Exemplo:
+//float c2k(float valor){
+//    return valor + 273;
+//}
+//Para converter de farenheit para kelvin basta usar f2c e c2k.

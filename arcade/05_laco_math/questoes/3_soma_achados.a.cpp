@@ -58,8 +58,4 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
 //Dica: Se lembre do operador de módulo ( % ) que retorna do resto da divisão de um número por outro.
-

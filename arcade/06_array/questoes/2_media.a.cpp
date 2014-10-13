@@ -27,13 +27,13 @@ void tests(){
     auto feq = [](float a, float b){return (max(a, b) - min(a, b) < 0.1);};
 
     cerr << "#open media ";
-	float v1[] = {1.0};
-	float v2[] = {1.0, 2.0, 3.0};
-	float v3[] = {2.0, 2.0, 2.0, 2.0};
+    float v1[] = {1.0};
+    float v2[] = {1.0, 2.0, 3.0};
+    float v3[] = {2.0, 2.0, 2.0, 2.0};
 
-	cerr << (feq(media(v1, 1), 1.0));
-	cerr << (feq(media(v2, 3), 2.0));
-	cerr << (feq(media(v3, 4), 2.0));
+    cerr << (feq(media(v1, 1), 1.0));
+    cerr << (feq(media(v2, 3), 2.0));
+    cerr << (feq(media(v3, 4), 2.0));
 }
 
 int main(){
@@ -41,11 +41,8 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-// Depois divida pela media
-// recolhendo todos os valores do vetor.
-// Para calcular a soma você precisa usar um acumulador para ir
-// elementos.
 // A média é a soma de todos os elementos dividida pela quantidade de
-
+// elementos.
+// Para calcular a soma você precisa usar um acumulador para ir
+// recolhendo todos os valores do vetor.
+// Depois divida pela media

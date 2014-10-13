@@ -17,15 +17,15 @@ using namespace std;
 enum Triangulos {EQUILATERO, ISOSCELES, ESCALENO, NAO_TRIANGULO};
 
 Triangulos triangulo(int l1, int l2, int l3){
-	return NAO_TRIANGULO;
+    return NAO_TRIANGULO;
 }
 
 //@end
 
 //@tests
 void tests(){
-	cerr << "#open triangulo BRONZE IF ENUM" << endl;
-	cerr << (triangulo(5, 5, 2) == ISOSCELES);
+    cerr << "#open triangulo BRONZE IF ENUM" << endl;
+    cerr << (triangulo(5, 5, 2) == ISOSCELES);
     cerr << (triangulo(5, 8, 9) == ESCALENO);
     cerr << (triangulo(8, 8, 8) == EQUILATERO);
 
@@ -36,9 +36,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//http://www.escolakids.com/classificacao-dos-triangulos.htm
+
 //Dicas Caso você não saiba a diferença entre os triângulos, acesse:
-
-
+//http://www.escolakids.com/classificacao-dos-triangulos.htm

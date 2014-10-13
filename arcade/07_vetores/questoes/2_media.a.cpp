@@ -41,12 +41,8 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-// Depois divida pela media
-// recolhendo todos os valores do vetor.
-// Para calcular a soma você precisa usar um acumulador para ir
-// elementos.
 // A média é a soma de todos os elementos dividida pela quantidade de
-
+// elementos.
+// Para calcular a soma você precisa usar um acumulador para ir
+// recolhendo todos os valores do vetor.
+// Depois divida pela media

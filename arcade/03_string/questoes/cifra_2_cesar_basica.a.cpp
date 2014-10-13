@@ -73,17 +73,13 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-
-//Se não for espaço, cifre o char.
-//Use isso no código que cifra o texto.
-//Aproveite e faça uma função que decifra um char
-//
-//char cifrar_char(char c);
-//Faça algo como
-//Teste se ela funciona bem.
 //Sugiro que você faça uma função que cifra e decifra um char.
-
+//Teste se ela funciona bem.
+//Faça algo como
+//char cifrar_char(char c);
+//
+//Aproveite e faça uma função que decifra um char
+//Use isso no código que cifra o texto.
+//Se não for espaço, cifre o char.
 

@@ -34,10 +34,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-// diferenciado, respectivamente 1 e 2.
-// a partir da terceira posição, se forem a posicao 1 e 2, estes tem valor
 // A sequencia de fibonatti leva em conta a soma dos dois termos anteriores
-
+// a partir da terceira posição, se forem a posicao 1 e 2, estes tem valor
+// diferenciado, respectivamente 1 e 2.

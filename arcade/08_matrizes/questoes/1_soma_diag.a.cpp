@@ -44,9 +44,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//da coluna.
 //Dicas: Você está em uma diagonal principal de uma matriz quando o número da linha é igual ao número
-
+//da coluna.

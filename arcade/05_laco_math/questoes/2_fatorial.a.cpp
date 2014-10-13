@@ -31,11 +31,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//Lembrando que a ordem não altera o resultado.
-//Exemplo: 5! = 5 * 4 * 3 * 2 * 1 OU 1 * 2 * 3 * 4 * 5 = 120
-//em ordem decrescente até o 1.
 //O fatorial de um número é sua multiplicação pelos demais números
-
+//em ordem decrescente até o 1.
+//Exemplo: 5! = 5 * 4 * 3 * 2 * 1 OU 1 * 2 * 3 * 4 * 5 = 120
+//Lembrando que a ordem não altera o resultado.

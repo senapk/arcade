@@ -35,10 +35,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//só fazer as condições de arredondamento.
-//entre a nota em float e a inteira você terá o valor decimal, a partir daí é
 //Crie uma variavel que guarde o valor inteiro da nota, calculando a diferença
-
+//entre a nota em float e a inteira você terá o valor decimal, a partir daí é
+//só fazer as condições de arredondamento.

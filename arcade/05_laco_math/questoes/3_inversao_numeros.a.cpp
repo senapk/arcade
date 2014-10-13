@@ -38,11 +38,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//a variavel, lembrando de tratar as posições de cada um.
-//dividiria por 10, e continuaria o processo adicionando sempre o ultimo numero
-//o modulo de 10 do numero, onde ele daria o valor do ultimo algarismo,
 //Dica: Você criar uma variavel auxiliar, depois adicionaria nessa variavel,
-
+//o modulo de 10 do numero, onde ele daria o valor do ultimo algarismo,
+//dividiria por 10, e continuaria o processo adicionando sempre o ultimo numero
+//a variavel, lembrando de tratar as posições de cada um.

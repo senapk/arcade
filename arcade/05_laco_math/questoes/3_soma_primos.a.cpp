@@ -39,12 +39,8 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//http://www.somatematica.com.br/fundam/primos.php
-//Para saber mais sobre os números primos acesse:
-//Se o numero for primo incremente um contador e no final retorne o mesmo.
-//Use essa função auxiliar para cada elemento i entre x+1 e y.
 //Faça uma função auxiliar que retorne true ou false se o numero passado for primo ou não.
-
+//Use essa função auxiliar para cada elemento i entre x+1 e y.
+//Se o numero for primo incremente um contador e no final retorne o mesmo.
+//Para saber mais sobre os números primos acesse:
+//http://www.somatematica.com.br/fundam/primos.php

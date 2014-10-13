@@ -45,9 +45,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//mas podem ser múltiplos de 400.
 //Dica: Os anos bissexto são múltiplos de 4 e não múltiplos de 100,
-
+//mas podem ser múltiplos de 400.

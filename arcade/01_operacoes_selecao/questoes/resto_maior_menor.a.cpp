@@ -31,9 +31,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
 //Se n1 for maior que n2 faca n1%n2, senao faca n2%n1.
-
-

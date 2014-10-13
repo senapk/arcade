@@ -51,14 +51,10 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-
-// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, … (podendo ser omitido o zero inicial).
-// a serie de fibonnaci é a seguinte:
-// precisa das outras duas, depois que aumenta-la, você precisa atualizar o valor das outras duas corretamente, para lembra-lo
-// a segunda referente ao seu anterior e a ultima referente a anterior da anterior, para "aumentar" a primeira você
 // Para obter a serie de fibonnaci, você precisa de 3 variaveis, a primeira referente ao valor que voce vai "aumentar",
-
+// a segunda referente ao seu anterior e a ultima referente a anterior da anterior, para "aumentar" a primeira você
+// precisa das outras duas, depois que aumenta-la, você precisa atualizar o valor das outras duas corretamente, para lembra-lo
+// a serie de fibonnaci é a seguinte:
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, … (podendo ser omitido o zero inicial).
 

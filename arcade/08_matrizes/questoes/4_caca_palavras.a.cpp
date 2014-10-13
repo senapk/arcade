@@ -96,29 +96,25 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-
- //Quando tiver conseguido solucionar esse problema, que tal fazer um gerador de caça palavras.
-
- //então a palavra não está naquela posição naquela direção.
- //Verifique os limites da matriz, se não conseguir extrair uma string do tamanho da palavra
-
- //se preocupar com a direção.
- //Se você passar o incremento para a função que extrai as strings não precisa
-
- //Antidiagonal é      +1, -1
- //Diagonal é          +1, +1
- //Vertical é sempre   +0, +1
- //Horizontal é sempre +1, +0
- //Você também pode pensar nas direções em relação ao incremento de x e y
-
- //Se você conseguir retirar strings da matriz, compará-las vai ser fácil.
- //a direção.
- //Faça uma função que arranca strings da matriz passando o tamanho, a posição inicial e
 
  //Algumas sugestões para te ajudar.
 
+ //Faça uma função que arranca strings da matriz passando o tamanho, a posição inicial e
+ //a direção.
+ //Se você conseguir retirar strings da matriz, compará-las vai ser fácil.
 
+ //Você também pode pensar nas direções em relação ao incremento de x e y
+ //Horizontal é sempre +1, +0
+ //Vertical é sempre   +0, +1
+ //Diagonal é          +1, +1
+ //Antidiagonal é      +1, -1
+
+ //Se você passar o incremento para a função que extrai as strings não precisa
+ //se preocupar com a direção.
+
+ //Verifique os limites da matriz, se não conseguir extrair uma string do tamanho da palavra
+ //então a palavra não está naquela posição naquela direção.
+
+ //Quando tiver conseguido solucionar esse problema, que tal fazer um gerador de caça palavras.
 

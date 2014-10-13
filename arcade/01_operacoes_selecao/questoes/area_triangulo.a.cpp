@@ -32,12 +32,8 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
-
-//Cuidado para colocar os parenteses certinhos.
-//http://www.mundoeducacao.com/matematica/formula-heron.htm
 //Se você não foi capaz de achar no google, tente esse link
+//http://www.mundoeducacao.com/matematica/formula-heron.htm
+//Cuidado para colocar os parenteses certinhos.
+
 

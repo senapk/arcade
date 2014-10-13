@@ -49,9 +49,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//e volte-o fazendo swaps até que ele chege na posicao devida.
 //De um push_back do elemento no fim
-
+//e volte-o fazendo swaps até que ele chege na posicao devida.

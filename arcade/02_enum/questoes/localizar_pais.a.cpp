@@ -18,15 +18,15 @@ enum Continente { AmericaSul, AmericaNorte, Europa, Asia, Oceania };
 
 
 Continente acharLocalizacao( Pais pais){
-	return AmericaSul;
+    return AmericaSul;
 }
 
 //@end
 
 //@tests
 void tests(){
-	cerr << "#open acharLocalizacao BRONZE ENUM" << endl;
-	cerr << (acharLocalizacao(Brasil) == AmericaSul);
+    cerr << "#open acharLocalizacao BRONZE ENUM" << endl;
+    cerr << (acharLocalizacao(Brasil) == AmericaSul);
     cerr << (acharLocalizacao(Italia) == Europa);
     cerr << (acharLocalizacao(EUA) == AmericaNorte);
 }
@@ -36,8 +36,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//http://www.gddc.pt/ligacoes-juridicas-auto/paises.html
 //Caso seu conhecimento de geografia esteja um pouco enverrujado, acesse:
-
+//http://www.gddc.pt/ligacoes-juridicas-auto/paises.html

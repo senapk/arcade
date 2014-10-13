@@ -76,23 +76,19 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//Se você encontrar então é vogal.
-//maiúsculas e minúsculas e faça uma busca usando um laço.
-//Para saber se é vogal crie uma string com todas as vogais
-//
-//se a maiúscula + a distancia = minuscula.
-//Como a maiuscula vem primeiro na tabela asc, é só checar
-//que v e V. A distancia entre eles é 'a' - 'A'.
-//na tabela ASC. Isso significa que a e A estão na mesma distancia
-//A distancia entre maiúsculas e minúsculas é sempre a mesma
-//Para testar se é a maiúscula é simples.
-//
-//maiusculo, minusculo, alfabetico, pontuacao e digito.
-//ispunct, itdigit para testar se um char é
-//Voce tambem pode usar isupper, islower, isalpha,
-//A mesma regra vale para os maiúsculos e números.
 //Todo caractere minusculo está entre 'a' e 'z'.
-
+//A mesma regra vale para os maiúsculos e números.
+//Voce tambem pode usar isupper, islower, isalpha,
+//ispunct, itdigit para testar se um char é
+//maiusculo, minusculo, alfabetico, pontuacao e digito.
+//
+//Para testar se é a maiúscula é simples.
+//A distancia entre maiúsculas e minúsculas é sempre a mesma
+//na tabela ASC. Isso significa que a e A estão na mesma distancia
+//que v e V. A distancia entre eles é 'a' - 'A'.
+//Como a maiuscula vem primeiro na tabela asc, é só checar
+//se a maiúscula + a distancia = minuscula.
+//
+//Para saber se é vogal crie uma string com todas as vogais
+//maiúsculas e minúsculas e faça uma busca usando um laço.
+//Se você encontrar então é vogal.

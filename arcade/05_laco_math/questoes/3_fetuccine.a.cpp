@@ -36,12 +36,8 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//1 , 1 , 2 , 1 , 3 , 2 , 5 , 3 , 8 , 5...
-//valores iguais a 1 ou sejá, 1º igual a 1 e o 2º igul a 1 a seguência fica da seguinte forma:
-//que executará de uma forma caso o indice do numero for impar e de outra forma caso for par, para os dois primeiros
 //Você vai criar uma condição
-
-
+//que executará de uma forma caso o indice do numero for impar e de outra forma caso for par, para os dois primeiros
+//valores iguais a 1 ou sejá, 1º igual a 1 e o 2º igul a 1 a seguência fica da seguinte forma:
+//1 , 1 , 2 , 1 , 3 , 2 , 5 , 3 , 8 , 5...

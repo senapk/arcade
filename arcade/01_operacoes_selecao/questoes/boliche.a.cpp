@@ -38,9 +38,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
 //Note que você já tem o diâmetro da caixa, tente compara-la com as demais medidas!
 

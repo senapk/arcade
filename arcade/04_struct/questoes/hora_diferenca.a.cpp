@@ -48,10 +48,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//O resultado da subtração, converta de volta para tempo.
-//Subtraia os segundos
-//Converta os dois tempos para segundos.
 //Faça uma função que converte de tempo para segundos.
-
+//Converta os dois tempos para segundos.
+//Subtraia os segundos
+//O resultado da subtração, converta de volta para tempo.

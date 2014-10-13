@@ -38,9 +38,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//http://clubes.obmep.org.br/blog/quadrado-perfeito/
 //Para saber mais sobre os quadrados perfeitos acesse:
-
+//http://clubes.obmep.org.br/blog/quadrado-perfeito/

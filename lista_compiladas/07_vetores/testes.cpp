@@ -153,6 +153,17 @@ namespace _3_busca_binaria{
 
 }
 
+namespace _3_cjto_diferenca{
+    void tests(){
+        cerr << "#open diferenca PRATA FOR IF" << endl;
+
+        cerr << (diferenca({1, 3, 9, 7, 8}, {2, 9, 10}) == vector<int>({1, 3, 7, 8}));
+        cerr << (diferenca({1, 2, 3, 4}, {4, 1}) == vector<int>({2, 3}));
+        cerr << (diferenca({1, 3, 4}, {4, 1, 2}) == vector<int>({3}));
+    }
+
+}
+
 namespace _3_duplas_multiplicadas{
     void tests(){
         cerr << "#open buscar_duplas" << endl;
@@ -236,6 +247,26 @@ namespace _3_minado_2d{
 
 }
 
+namespace _3_pa_ou_pg{
+    //@tests
+    void tests(){
+
+        cerr << "#open 3_pa_ou_pg PRATA VECTOR IF" << endl;
+
+        vector<int> v1 ({1,1,1});
+        vector<int> v2 ({1,2,3});
+        vector<int> v3 ({3,2,1});
+        vector<int> v4 ({1,2,4});
+
+        cerr << (proximo_termo(v1) == 1);
+        cerr << (proximo_termo(v2) == 4);
+        cerr << (proximo_termo(v3) == 0);
+        cerr << (proximo_termo(v4) == 8);
+
+    }
+
+}
+
 namespace _3_pegar_exemplares{
     void tests ()
     {
@@ -268,6 +299,30 @@ namespace _3_remover_puxando{
             remover_puxando(vet, 5);
             cerr << (vet == out);
         }
+    }
+
+}
+
+namespace _3_selection_sort{
+    //@tests
+    void tests(){
+
+        cerr << "#open selection_sort PRATA IF FOR" << endl;
+
+        vector<int> v1 ({1});
+        vector<int> v2 ({2,1});
+        vector<int> v3 ({5,4,3,2,1});
+        vector<int> v4 ({1,9,2,8,3,7,5, 6, 4});
+
+        vector<int> teste1 ({1});
+        vector<int> teste2 ({1,2});
+        vector<int> teste3 ({1,2,3,4,5});
+        vector<int> teste4 ({1,2,3,4,5,6,7,8,9});
+
+        cerr << (teste1 == ordenar(v1));
+        cerr << (teste2 == ordenar(v2));
+        cerr << (teste3 == ordenar(v3));
+        cerr << (teste4 == ordenar(v4));
     }
 
 }
@@ -428,14 +483,17 @@ int main(){
     _2_pegar_sem_par::tests();
     _2_pegar_sozinhos::tests();
     _3_busca_binaria::tests();
+    _3_cjto_diferenca::tests();
     _3_duplas_multiplicadas::tests();
     _3_fatorar_primos::tests();
     _3_fatores_comuns::tests();
     _3_inserir_ordenado::tests();
     _3_mdc_vetor::tests();
     _3_minado_2d::tests();
+    _3_pa_ou_pg::tests();
     _3_pegar_exemplares::tests();
     _3_remover_puxando::tests();
+    _3_selection_sort::tests();
     _3_swap_onibus_topic::tests();
     _4_emendar_frase::tests();
     _4_juntar_amigos::tests();

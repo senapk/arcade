@@ -45,10 +45,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
-//caso essa quandidade sejam diferentes, você retorn false, faça isso para todos os numeros do primeiro ou segundo valor..
 //Você tem apenas que saber quantas vezes um determinado numero aparece no primeiro valor e no segundo valor,
+//caso essa quandidade sejam diferentes, você retorn false, faça isso para todos os numeros do primeiro ou segundo valor..
 

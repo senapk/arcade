@@ -4,6 +4,7 @@
 using namespace std;
 #include <algorithm>
 //@autor Bruno Barreto;
+//@autor Bruno Barreto, David Sena
 #include <cmath>
 #include <string>
 #include <cctype>
@@ -191,6 +192,19 @@ namespace _3_busca_binaria{
 
 }
 
+namespace _3_cjto_diferenca{
+
+    /*
+    Implemente uma função que descubra e retorne quantos elementos fazem
+    parte do vetor v1 e não fazem parte do vetor v2. Elementos repetidos
+    contam como apenas um elemento.
+    */
+    vector<int> diferenca(vector<int> maior, vector<int> menor){
+        return vector<int>();
+    }
+
+}
+
 namespace _3_duplas_multiplicadas{
 
     /*Duplas Multiplicadas.
@@ -211,25 +225,12 @@ namespace _3_duplas_multiplicadas{
 
     bool operator==(vector<Pair> a, vector<Pair> b)
     {
-        if(a.size() == b.size()){
-            for(int i = 0; i < (int)a.size(); i++){
-                bool existe = false;
-                for(int j = 0; j < (int)b.size(); j++){
-                    if((a.at(i).x == b.at(j).x || a.at(i).x == b.at(j).y) && (a.at(i).y == b.at(j).y || a.at(i).y == b.at(j).x)){
-                        existe = true;
-                        break;
-                    }
-                }
-                if(existe == false){
-                    return false;
-                }
-                else {
-                    continue;
-                }
-            }
-            return true;
-        }
-        return false;
+        if(a.size() != b.size())
+            return false;
+        for(int i = 0; i < (int)a.size(); i++)
+            if(a[i].x != b[i].x or a[i].y != b[i].y)
+                return false;
+        return true;
     }
 
 }
@@ -362,6 +363,31 @@ namespace _3_minado_2d{
 
 }
 
+namespace _3_pa_ou_pg{
+
+    /*Q Próximo termo Q*/
+    /*T
+      Atanagildetina é uma estudante de programação. Seu professor deu-lhe uma
+      sequência de números inteiros e pediu uma função que retornasse o próximo elemento
+      desta seqência. Mas o professor troll "esqueceu" de dizer a ela qual a razão entre os
+      termos e se a sequência é uma progressão aritimética ou geométrica.
+      Por exemplo, a sequência {1, 3, 5, 7}, é uma progressão ARITIMÉTICA de razão
+      2, já a sequência {1, 2, 4, 8} é uma progresão GEOMÉTRICA de razão 2.
+      Ajude Atanagildetina a fazer esta função que recebe uma sequência de inteiros
+      e deduz a razão e a operação a ser feita e retorna o próximo termo. Considere
+      que o vetor terá pelomenos 3 termos.
+    Dica: teste a diferença entre o primeiro termo e o segundo e veja se é
+    a mesa entre o segundo e o terceiro. Caso seja, esta será a razão
+    de uma sequência aritimética. Se não, teste o quociente entre os termos
+    visinhos.
+    T*/
+
+    int proximo_termo(vector<int> v) {
+        return 0;
+    }
+
+}
+
 namespace _3_pegar_exemplares{
 
     //O dono do zoologico quer a lista de todas as especies de animais
@@ -397,6 +423,29 @@ namespace _3_remover_puxando{
     */
     bool remover_puxando(vector<int>& vet, int elem) {
         return false;
+    }
+
+}
+
+namespace _3_selection_sort{
+
+    /*Q Ordenação Q*/
+
+    /*T
+      Mesmo com a sua função de inserir ordenado, alguns professores não
+      utilizaram essa função e foram adicionando mais notas sem se preocupar
+      com a ordem. Pensando nisso, implemente uma função que reordena o vetor
+      de notas passado como parametro e retorne o vetor ordenado.
+
+      Uma opção de algoritmo de ordenação e o selection sort, onde percore-se
+      o vetor e encontra-se o menor elemento, que é colocado na primeira posição
+      do vetor. Uma nova busca é realizada nos elementos restantes em busca do menor
+      entre eles, quando encontrado é colocado na segunda posição do vetor. Seguindo
+      esse algoritmo até o final do vetor, é garantida a ordenação.
+      T*/
+
+    vector<int> ordenar(vector<int> v) {
+        return vector<int>();
     }
 
 }

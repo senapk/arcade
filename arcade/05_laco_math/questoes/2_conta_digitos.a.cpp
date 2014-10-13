@@ -42,10 +42,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//e verificar a ocorrencia de um outro numero
-//você pode usar o operador MOD, depois é só pegar todos
 //Dica: Para pegar o primeiro numero da direita pra esquerda no valor,
-
+//você pode usar o operador MOD, depois é só pegar todos
+//e verificar a ocorrencia de um outro numero

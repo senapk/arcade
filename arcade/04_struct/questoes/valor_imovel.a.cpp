@@ -37,34 +37,34 @@ enum Localizacao {CENTRO, ZONA_LESTE, ZONA_SUL};
 
 struct Imovel
 {
-	int comodos;
-	int banheiros;
-	int metros_quadrados;
-	int esp_garagem;
-	Localizacao local;
+    int comodos;
+    int banheiros;
+    int metros_quadrados;
+    int esp_garagem;
+    Localizacao local;
 };
 
 float valor_imovel(Imovel imovel){
-	return 0.0;
+    return 0.0;
 }
 
 //@end
 
 //@tests
 void tests(){
-	cerr << "#open valor_imovel BRONZE IF ENUM STRUCT" << endl;
-	{
-		Imovel im{3,3,100,3,CENTRO};
-		cerr << (valor_imovel(im) == 741710);
-	}
-	{
-		Imovel im{3,3,100,3,ZONA_LESTE};
-		cerr << (valor_imovel(im) == 654450);
-	}
-	{
-		Imovel im{3,3,100,3,ZONA_SUL};
-		cerr << (valor_imovel(im) == 698080);
-	}
+    cerr << "#open valor_imovel BRONZE IF ENUM STRUCT" << endl;
+    {
+        Imovel im{3,3,100,3,CENTRO};
+        cerr << (valor_imovel(im) == 741710);
+    }
+    {
+        Imovel im{3,3,100,3,ZONA_LESTE};
+        cerr << (valor_imovel(im) == 654450);
+    }
+    {
+        Imovel im{3,3,100,3,ZONA_SUL};
+        cerr << (valor_imovel(im) == 698080);
+    }
 }
 
 int main(){
@@ -72,7 +72,4 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 //Dicas: --
-

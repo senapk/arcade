@@ -40,11 +40,7 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//com outra variável auxiliar depois retorne a diferença entre as duas.
-//Use a função citada a cima em um laço e se o número for primo some ele em uma variável auxiliar, se não some
 //tips: Faça uma função auxiliar que recebe um número por parâmetro e retorna se ele é primo ou não.
-
-
+//Use a função citada a cima em um laço e se o número for primo some ele em uma variável auxiliar, se não some
+//com outra variável auxiliar depois retorne a diferença entre as duas.

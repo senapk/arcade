@@ -43,9 +43,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//http://matematicaenigmatica.blogspot.com.br/2009/11/numeros-palindromos-ou-capicua.html
 //Para saber mais sobre números palindromos acesse:
-
+//http://matematicaenigmatica.blogspot.com.br/2009/11/numeros-palindromos-ou-capicua.html

@@ -37,13 +37,9 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-
-
-//e caso seja espaço, so pode haver um.
-//como a questão so quer que você retire os espaços, então você pode copiar se não for espaço
-//Você pode verificar cada elemento da string usando nome_string[posicao_elemento]
 //Para ver o tamanho de uma string, utilize o nome_string.length();
+//Você pode verificar cada elemento da string usando nome_string[posicao_elemento]
+//como a questão so quer que você retire os espaços, então você pode copiar se não for espaço
+//e caso seja espaço, so pode haver um.
+
 

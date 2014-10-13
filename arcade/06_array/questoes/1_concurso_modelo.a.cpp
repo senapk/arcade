@@ -38,9 +38,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//com uma variavel em float.
-//para que vc possa testar com os do vetor, certifique-se de testar
 //Antes de ver qual o maior numero, armazene em uma variavel um valor
-
+//para que vc possa testar com os do vetor, certifique-se de testar
+//com uma variavel em float.

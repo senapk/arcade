@@ -47,10 +47,6 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
 
-//Se o resto da divisão de um número n1 por outro numero n2 for 0 então n1 é divisível por n2.
 //Para saber se um número é divisível por outro basta usar o operador % (Módulo ou Resto da divisão).
-
-
+//Se o resto da divisão de um número n1 por outro numero n2 for 0 então n1 é divisível por n2.

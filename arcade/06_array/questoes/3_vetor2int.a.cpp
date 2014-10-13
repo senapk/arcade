@@ -22,19 +22,19 @@ int vetor_para_int(int v[], int tam) {
 //@end
 
 void tests(){
-	cerr << ("#open vet2int OURO");
+    cerr << ("#open vet2int OURO");
 
-	int v1[] = {1};
-	int v2[] = {0, 0, 1};
-	int v3[] = {1, 0, 0};
-	int v4[] = {1, 0, 2};
-	int v5[] = {0, 0, 0};
+    int v1[] = {1};
+    int v2[] = {0, 0, 1};
+    int v3[] = {1, 0, 0};
+    int v4[] = {1, 0, 2};
+    int v5[] = {0, 0, 0};
 
-	cerr << (vetor_para_int(v1, 1) == 1);
-	cerr << (vetor_para_int(v2, 3) == 1);
-	cerr << (vetor_para_int(v3, 3) == 100);
-	cerr << (vetor_para_int(v4, 3) == 102);
-	cerr << (vetor_para_int(v5, 3) == 0);
+    cerr << (vetor_para_int(v1, 1) == 1);
+    cerr << (vetor_para_int(v2, 3) == 1);
+    cerr << (vetor_para_int(v3, 3) == 100);
+    cerr << (vetor_para_int(v4, 3) == 102);
+    cerr << (vetor_para_int(v5, 3) == 0);
 }
 
 int main(){
@@ -42,8 +42,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//por 10 e somar os dois.
 //Dica: para unir dois números em um só você pode multiplicar o primeiro
-
+//por 10 e somar os dois.

@@ -64,21 +64,17 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
-//for maior ou se for igual, mas o número for maior.
-//Você deve atualizar o maior número se o resultado da multiplicação
-//
-//Lembre de guardar o valor da maior multiplicação e do maior número.
-//Por fim, faça uma busca pela maior multiplicação.
-//
-//Para transformar um char numérico em número, subtraia de '0'.
-//Pra isso pegue os char um a um e multiplique.
-//Faça uma função que receba essa string e calcule a multiplicação.
-//
-//você usa nome.substr(4, 10).
-//Para pegar a partir do quarto elemento 10 elementos
-//Dada uma string nome;
 //Aprenda a usar o método substr da classe string.
-
+//Dada uma string nome;
+//Para pegar a partir do quarto elemento 10 elementos
+//você usa nome.substr(4, 10).
+//
+//Faça uma função que receba essa string e calcule a multiplicação.
+//Pra isso pegue os char um a um e multiplique.
+//Para transformar um char numérico em número, subtraia de '0'.
+//
+//Por fim, faça uma busca pela maior multiplicação.
+//Lembre de guardar o valor da maior multiplicação e do maior número.
+//
+//Você deve atualizar o maior número se o resultado da multiplicação
+//for maior ou se for igual, mas o número for maior.

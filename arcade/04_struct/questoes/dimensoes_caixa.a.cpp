@@ -52,8 +52,5 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-//http://educacaomatematica10.blogspot.com.br/2012/06/perimetro-area-e-volume.html
 //Qualquer dúvida acesse este site:
-
+//http://educacaomatematica10.blogspot.com.br/2012/06/perimetro-area-e-volume.html

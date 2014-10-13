@@ -50,8 +50,4 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
-//@tips
-//As linhas estão invertidas para você não ler sem querer :)
-
 //Use uma variável auxiliar que guarda a soma de cada número interado em um laço.
-
