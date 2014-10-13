@@ -30,25 +30,12 @@ vector<Pair> buscar_duplas(int n){
 
 bool operator==(vector<Pair> a, vector<Pair> b)
 {
-    if(a.size() == b.size()){
-        for(int i = 0; i < (int)a.size(); i++){
-            bool existe = false;
-            for(int j = 0; j < (int)b.size(); j++){
-                if((a.at(i).x == b.at(j).x || a.at(i).x == b.at(j).y) && (a.at(i).y == b.at(j).y || a.at(i).y == b.at(j).x)){
-                    existe = true;
-                    break;
-                }
-            }
-            if(existe == false){
-                return false;
-            }
-            else {
-                continue;
-            }
-        }
-        return true;
-    }
-    return false;
+    if(a.size() != b.size())
+        return false;
+    for(int i = 0; i < (int)a.size(); i++)
+        if(a[i].x != b[i].x or a[i].y != b[i].y)
+            return false;
+    return true;
 }
 
 //@end
