@@ -1,0 +1,12 @@
+// This file overrides the built-in C++ (simple) runner
+// For more information see http://docs.c9.io:8080/#!/api/run-method-run
+{
+  "cmd": [
+    "sh",
+    "-c",
+    "/usr/bin/g++ -std=c++11 -Wall $file -o runme; chmod 755 $file_path/runme; $file_path/runme"
+  ],
+  "info": "Running $file_path$file_name",
+  "env": {},
+  "selector": "source.cpp"
+}
