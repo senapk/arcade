@@ -11,7 +11,8 @@
 using namespace std;
 //@begin
 
-//@converti: Ítalo Bandeira
+//@autor Ítalo Bandeira
+//
 //Faça uma função que remova TODOS elementos repetidos de um vector e
 //adicione a soma no fim, até que não haja elementos repetidos
 //{1 18 3 1 1 4 5 9 3}
