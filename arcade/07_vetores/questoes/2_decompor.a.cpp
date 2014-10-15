@@ -12,8 +12,8 @@ using namespace std;
 
 // Marquinhos está para ficar louco. Hermeneutico desafiou ele a fazer um código
 // que quebra inteiros em um vetor. Mas essa tarefa aparentemente simples está
-// acabando com os miolos de Marquinhos. Por favor, ajudar Marquinhos a recuperar
-// sua paz de espirito fazendo esse código pra ele.
+// acabando com os miolos de Marquinhos. Por favor, ajude Marquinhos a recuperar
+// sua paz de espírito fazendo esse código pra ele.
 // Ex: 1235 -> {1, 2, 3, 5};
 vector<int> decompor_int(int num){
     return vector<int>();
@@ -34,3 +34,13 @@ int main(){
     cerr << endl << "#end";
     return(0);
 }
+//Forma 1 : Usando as operações de módulo por 10 e divisão por 10, vá retirando os números
+//e fazendo push_back pra dentro do vetor.
+//Depois faça uma função de inverter para destrocar a ordem dos elementos.
+
+//Forma 2 : Faça a forma 1 primeiro. Quando conseguir, use o método to_string() do c++11
+//para transformar o número em string e depois faça um for normal dando os push_back para
+//o vetor.
+
+//Para inverter o vetor você pode dar o include <algorithm> e usar o método 
+//std::reverse(begin(vet), end(vet));
