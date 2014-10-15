@@ -31,14 +31,7 @@ using namespace std;
 //
 // A entrada sempre sera em letra minuscula e sem pontuacao
 //
-string upper(string input){
-    return "";
-}
 
-
-string remover_caractere(string frase, int indice){
-    return "";
-}
 
 string emendar(string input){
    return "";
@@ -46,7 +39,6 @@ string emendar(string input){
 
 //@end
 
-//@tests
 void tests(){
     cerr << "#open emendar OURO FOR IF STRING ";
     string in = "a amiga da andreia odeia alfaces";
